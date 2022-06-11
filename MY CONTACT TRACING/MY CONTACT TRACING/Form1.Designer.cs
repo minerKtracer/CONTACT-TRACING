@@ -50,6 +50,7 @@
             this.EButton.TabIndex = 0;
             this.EButton.Text = "ENTER";
             this.EButton.UseVisualStyleBackColor = true;
+            this.EButton.Click += new System.EventHandler(this.EButton_Click);
             // 
             // FNTextBox1
             // 
@@ -158,7 +159,7 @@
             this.Controls.Add(this.SNTextBox2);
             this.Controls.Add(this.FNTextBox1);
             this.Controls.Add(this.EButton);
-            this.MinimizeBox = false;
+            this.MaximizeBox = false;
             this.Name = "GetPass";
             this.Text = "THE CONTACT TRACING";
             this.ResumeLayout(false);
