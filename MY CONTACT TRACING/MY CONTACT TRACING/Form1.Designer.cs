@@ -56,13 +56,17 @@
             this.TITextBox2 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.ERTextBox11 = new System.Windows.Forms.TextBox();
+            this.VLabel = new System.Windows.Forms.Label();
+            this.VTextBox12 = new System.Windows.Forms.TextBox();
+            this.QTextBox13 = new System.Windows.Forms.TextBox();
+            this.QLabel = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // EButton
             // 
             this.EButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EButton.Location = new System.Drawing.Point(141, 332);
+            this.EButton.Location = new System.Drawing.Point(146, 412);
             this.EButton.Name = "EButton";
             this.EButton.Size = new System.Drawing.Size(76, 34);
             this.EButton.TabIndex = 0;
@@ -73,7 +77,7 @@
             // FNTextBox3
             // 
             this.FNTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FNTextBox3.Location = new System.Drawing.Point(146, 85);
+            this.FNTextBox3.Location = new System.Drawing.Point(151, 103);
             this.FNTextBox3.Name = "FNTextBox3";
             this.FNTextBox3.Size = new System.Drawing.Size(129, 21);
             this.FNTextBox3.TabIndex = 1;
@@ -81,7 +85,7 @@
             // SNTextBox4
             // 
             this.SNTextBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SNTextBox4.Location = new System.Drawing.Point(146, 112);
+            this.SNTextBox4.Location = new System.Drawing.Point(151, 130);
             this.SNTextBox4.Name = "SNTextBox4";
             this.SNTextBox4.Size = new System.Drawing.Size(129, 21);
             this.SNTextBox4.TabIndex = 2;
@@ -89,7 +93,7 @@
             // ATextBox5
             // 
             this.ATextBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ATextBox5.Location = new System.Drawing.Point(146, 139);
+            this.ATextBox5.Location = new System.Drawing.Point(151, 157);
             this.ATextBox5.Name = "ATextBox5";
             this.ATextBox5.Size = new System.Drawing.Size(129, 21);
             this.ATextBox5.TabIndex = 3;
@@ -97,7 +101,7 @@
             // PNTextBox7
             // 
             this.PNTextBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PNTextBox7.Location = new System.Drawing.Point(146, 192);
+            this.PNTextBox7.Location = new System.Drawing.Point(151, 210);
             this.PNTextBox7.Name = "PNTextBox7";
             this.PNTextBox7.Size = new System.Drawing.Size(129, 21);
             this.PNTextBox7.TabIndex = 4;
@@ -105,7 +109,7 @@
             // ADDTextBox8
             // 
             this.ADDTextBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ADDTextBox8.Location = new System.Drawing.Point(146, 219);
+            this.ADDTextBox8.Location = new System.Drawing.Point(151, 237);
             this.ADDTextBox8.Name = "ADDTextBox8";
             this.ADDTextBox8.Size = new System.Drawing.Size(129, 21);
             this.ADDTextBox8.TabIndex = 5;
@@ -114,7 +118,7 @@
             // 
             this.FNLabel.AutoSize = true;
             this.FNLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FNLabel.Location = new System.Drawing.Point(55, 88);
+            this.FNLabel.Location = new System.Drawing.Point(60, 106);
             this.FNLabel.Name = "FNLabel";
             this.FNLabel.Size = new System.Drawing.Size(85, 15);
             this.FNLabel.TabIndex = 6;
@@ -124,7 +128,7 @@
             // 
             this.SNLabel.AutoSize = true;
             this.SNLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SNLabel.Location = new System.Drawing.Point(67, 115);
+            this.SNLabel.Location = new System.Drawing.Point(72, 133);
             this.SNLabel.Name = "SNLabel";
             this.SNLabel.Size = new System.Drawing.Size(73, 15);
             this.SNLabel.TabIndex = 7;
@@ -134,7 +138,7 @@
             // 
             this.ALabel.AutoSize = true;
             this.ALabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ALabel.Location = new System.Drawing.Point(101, 142);
+            this.ALabel.Location = new System.Drawing.Point(106, 160);
             this.ALabel.Name = "ALabel";
             this.ALabel.Size = new System.Drawing.Size(39, 15);
             this.ALabel.TabIndex = 8;
@@ -145,7 +149,7 @@
             // 
             this.PNLabel.AutoSize = true;
             this.PNLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PNLabel.Location = new System.Drawing.Point(29, 195);
+            this.PNLabel.Location = new System.Drawing.Point(34, 213);
             this.PNLabel.Name = "PNLabel";
             this.PNLabel.Size = new System.Drawing.Size(111, 15);
             this.PNLabel.TabIndex = 9;
@@ -155,7 +159,7 @@
             // 
             this.ADDLabel.AutoSize = true;
             this.ADDLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ADDLabel.Location = new System.Drawing.Point(74, 222);
+            this.ADDLabel.Location = new System.Drawing.Point(79, 240);
             this.ADDLabel.Name = "ADDLabel";
             this.ADDLabel.Size = new System.Drawing.Size(66, 15);
             this.ADDLabel.TabIndex = 10;
@@ -203,7 +207,7 @@
             // BTextBox9
             // 
             this.BTextBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTextBox9.Location = new System.Drawing.Point(177, 246);
+            this.BTextBox9.Location = new System.Drawing.Point(182, 264);
             this.BTextBox9.Name = "BTextBox9";
             this.BTextBox9.Size = new System.Drawing.Size(129, 21);
             this.BTextBox9.TabIndex = 12;
@@ -211,7 +215,7 @@
             // CTextBox10
             // 
             this.CTextBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CTextBox10.Location = new System.Drawing.Point(177, 273);
+            this.CTextBox10.Location = new System.Drawing.Point(182, 291);
             this.CTextBox10.Name = "CTextBox10";
             this.CTextBox10.Size = new System.Drawing.Size(129, 21);
             this.CTextBox10.TabIndex = 13;
@@ -220,7 +224,7 @@
             // 
             this.BLabel.AutoSize = true;
             this.BLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BLabel.Location = new System.Drawing.Point(101, 249);
+            this.BLabel.Location = new System.Drawing.Point(106, 267);
             this.BLabel.Name = "BLabel";
             this.BLabel.Size = new System.Drawing.Size(75, 15);
             this.BLabel.TabIndex = 14;
@@ -230,7 +234,7 @@
             // 
             this.CLabel.AutoSize = true;
             this.CLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CLabel.Location = new System.Drawing.Point(138, 276);
+            this.CLabel.Location = new System.Drawing.Point(143, 294);
             this.CLabel.Name = "CLabel";
             this.CLabel.Size = new System.Drawing.Size(38, 15);
             this.CLabel.TabIndex = 15;
@@ -240,16 +244,16 @@
             // 
             this.SLabel.AutoSize = true;
             this.SLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SLabel.Location = new System.Drawing.Point(101, 168);
+            this.SLabel.Location = new System.Drawing.Point(68, 186);
             this.SLabel.Name = "SLabel";
-            this.SLabel.Size = new System.Drawing.Size(39, 15);
+            this.SLabel.Size = new System.Drawing.Size(77, 15);
             this.SLabel.TabIndex = 16;
-            this.SLabel.Text = "Sex :";
+            this.SLabel.Text = "Sex (F/M) :";
             // 
             // STextBox6
             // 
             this.STextBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.STextBox6.Location = new System.Drawing.Point(146, 165);
+            this.STextBox6.Location = new System.Drawing.Point(151, 183);
             this.STextBox6.Name = "STextBox6";
             this.STextBox6.Size = new System.Drawing.Size(129, 21);
             this.STextBox6.TabIndex = 17;
@@ -257,7 +261,7 @@
             // DVTextBox1
             // 
             this.DVTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DVTextBox1.Location = new System.Drawing.Point(146, 32);
+            this.DVTextBox1.Location = new System.Drawing.Point(151, 50);
             this.DVTextBox1.Name = "DVTextBox1";
             this.DVTextBox1.Size = new System.Drawing.Size(129, 21);
             this.DVTextBox1.TabIndex = 18;
@@ -266,7 +270,7 @@
             // 
             this.DVLabel.AutoSize = true;
             this.DVLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DVLabel.Location = new System.Drawing.Point(48, 35);
+            this.DVLabel.Location = new System.Drawing.Point(53, 53);
             this.DVLabel.Name = "DVLabel";
             this.DVLabel.Size = new System.Drawing.Size(92, 15);
             this.DVLabel.TabIndex = 19;
@@ -276,7 +280,7 @@
             // 
             this.TILabel.AutoSize = true;
             this.TILabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TILabel.Location = new System.Drawing.Point(77, 62);
+            this.TILabel.Location = new System.Drawing.Point(82, 80);
             this.TILabel.Name = "TILabel";
             this.TILabel.Size = new System.Drawing.Size(63, 15);
             this.TILabel.TabIndex = 20;
@@ -285,7 +289,7 @@
             // TITextBox2
             // 
             this.TITextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TITextBox2.Location = new System.Drawing.Point(146, 58);
+            this.TITextBox2.Location = new System.Drawing.Point(151, 76);
             this.TITextBox2.Name = "TITextBox2";
             this.TITextBox2.Size = new System.Drawing.Size(129, 21);
             this.TITextBox2.TabIndex = 21;
@@ -294,7 +298,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(67, 303);
+            this.label6.Location = new System.Drawing.Point(38, 321);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(107, 15);
             this.label6.TabIndex = 22;
@@ -303,16 +307,56 @@
             // ERTextBox11
             // 
             this.ERTextBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ERTextBox11.Location = new System.Drawing.Point(148, 300);
+            this.ERTextBox11.Location = new System.Drawing.Point(151, 318);
             this.ERTextBox11.Name = "ERTextBox11";
             this.ERTextBox11.Size = new System.Drawing.Size(129, 21);
             this.ERTextBox11.TabIndex = 23;
+            // 
+            // VLabel
+            // 
+            this.VLabel.AutoSize = true;
+            this.VLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VLabel.Location = new System.Drawing.Point(24, 348);
+            this.VLabel.Name = "VLabel";
+            this.VLabel.Size = new System.Drawing.Size(121, 15);
+            this.VLabel.TabIndex = 24;
+            this.VLabel.Text = "Vaccinated (Y/N) :";
+            // 
+            // VTextBox12
+            // 
+            this.VTextBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VTextBox12.Location = new System.Drawing.Point(151, 345);
+            this.VTextBox12.Name = "VTextBox12";
+            this.VTextBox12.Size = new System.Drawing.Size(129, 21);
+            this.VTextBox12.TabIndex = 25;
+            // 
+            // QTextBox13
+            // 
+            this.QTextBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QTextBox13.Location = new System.Drawing.Point(182, 372);
+            this.QTextBox13.Name = "QTextBox13";
+            this.QTextBox13.Size = new System.Drawing.Size(129, 21);
+            this.QTextBox13.TabIndex = 26;
+            // 
+            // QLabel
+            // 
+            this.QLabel.AutoSize = true;
+            this.QLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QLabel.Location = new System.Drawing.Point(53, 375);
+            this.QLabel.Name = "QLabel";
+            this.QLabel.Size = new System.Drawing.Size(124, 15);
+            this.QLabel.TabIndex = 27;
+            this.QLabel.Text = "How many dose? :";
             // 
             // GetPass
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(355, 378);
+            this.ClientSize = new System.Drawing.Size(355, 458);
+            this.Controls.Add(this.QLabel);
+            this.Controls.Add(this.QTextBox13);
+            this.Controls.Add(this.VTextBox12);
+            this.Controls.Add(this.VLabel);
             this.Controls.Add(this.ERTextBox11);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.TITextBox2);
@@ -378,6 +422,10 @@
         private System.Windows.Forms.TextBox TITextBox2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox ERTextBox11;
+        private System.Windows.Forms.Label VLabel;
+        private System.Windows.Forms.TextBox VTextBox12;
+        private System.Windows.Forms.TextBox QTextBox13;
+        private System.Windows.Forms.Label QLabel;
     }
 }
 
