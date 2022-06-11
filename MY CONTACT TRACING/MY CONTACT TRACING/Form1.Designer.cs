@@ -173,7 +173,7 @@
             this.AboutMain});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(355, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(329, 25);
             this.menuStrip1.TabIndex = 11;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -267,20 +267,20 @@
             // DVTextBox1
             // 
             this.DVTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DVTextBox1.Location = new System.Drawing.Point(151, 50);
+            this.DVTextBox1.Location = new System.Drawing.Point(196, 49);
             this.DVTextBox1.Name = "DVTextBox1";
-            this.DVTextBox1.Size = new System.Drawing.Size(129, 21);
+            this.DVTextBox1.Size = new System.Drawing.Size(84, 21);
             this.DVTextBox1.TabIndex = 18;
             // 
             // DVLabel
             // 
             this.DVLabel.AutoSize = true;
             this.DVLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DVLabel.Location = new System.Drawing.Point(53, 53);
+            this.DVLabel.Location = new System.Drawing.Point(12, 52);
             this.DVLabel.Name = "DVLabel";
-            this.DVLabel.Size = new System.Drawing.Size(92, 15);
+            this.DVLabel.Size = new System.Drawing.Size(178, 15);
             this.DVLabel.TabIndex = 19;
-            this.DVLabel.Text = "Date of Visit :";
+            this.DVLabel.Text = "Date of Visit (mm/dd/yyyy) :";
             // 
             // TILabel
             // 
@@ -365,7 +365,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(355, 458);
+            this.ClientSize = new System.Drawing.Size(329, 458);
             this.Controls.Add(this.QLabel);
             this.Controls.Add(this.QTextBox13);
             this.Controls.Add(this.VTextBox12);
