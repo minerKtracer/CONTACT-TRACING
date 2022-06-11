@@ -42,5 +42,16 @@ namespace MY_CONTACT_TRACING
             file.WriteLine("How many dose?: " + QTextBox13.Text);
             file.Close();
         }
+
+        private void AboutSub_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Created by Kylene Shane M. Varona from BSCOE 1-5", "BASIC INFO");
+        }
+
+        private void ExitTab_Click(object sender, EventArgs e)
+        {
+            // Close the form.
+            this.Close();
+        }
     }
 }

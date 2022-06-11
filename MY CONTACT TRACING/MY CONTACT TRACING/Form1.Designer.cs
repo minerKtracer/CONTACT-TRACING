@@ -40,10 +40,10 @@
             this.PNLabel = new System.Windows.Forms.Label();
             this.ADDLabel = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.programTownCorporationIncToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.FileMain = new System.Windows.Forms.ToolStripMenuItem();
+            this.ExitTab = new System.Windows.Forms.ToolStripMenuItem();
+            this.AboutMain = new System.Windows.Forms.ToolStripMenuItem();
+            this.AboutSub = new System.Windows.Forms.ToolStripMenuItem();
             this.BTextBox9 = new System.Windows.Forms.TextBox();
             this.CTextBox10 = new System.Windows.Forms.TextBox();
             this.BLabel = new System.Windows.Forms.Label();
@@ -168,41 +168,43 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.helpToolStripMenuItem,
-            this.aboutToolStripMenuItem});
+            this.FileMain,
+            this.AboutMain});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(355, 24);
             this.menuStrip1.TabIndex = 11;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // helpToolStripMenuItem
+            // FileMain
             // 
-            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.exitToolStripMenuItem});
-            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.helpToolStripMenuItem.Text = "Help";
+            this.FileMain.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ExitTab});
+            this.FileMain.Name = "FileMain";
+            this.FileMain.Size = new System.Drawing.Size(37, 20);
+            this.FileMain.Text = "File";
             // 
-            // aboutToolStripMenuItem
+            // ExitTab
             // 
-            this.aboutToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.programTownCorporationIncToolStripMenuItem});
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
-            this.aboutToolStripMenuItem.Text = "About";
+            this.ExitTab.Name = "ExitTab";
+            this.ExitTab.Size = new System.Drawing.Size(152, 22);
+            this.ExitTab.Text = "Exit";
+            this.ExitTab.Click += new System.EventHandler(this.ExitTab_Click);
             // 
-            // exitToolStripMenuItem
+            // AboutMain
             // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
+            this.AboutMain.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.AboutSub});
+            this.AboutMain.Name = "AboutMain";
+            this.AboutMain.Size = new System.Drawing.Size(52, 20);
+            this.AboutMain.Text = "About";
             // 
-            // programTownCorporationIncToolStripMenuItem
+            // AboutSub
             // 
-            this.programTownCorporationIncToolStripMenuItem.Name = "programTownCorporationIncToolStripMenuItem";
-            this.programTownCorporationIncToolStripMenuItem.Size = new System.Drawing.Size(240, 22);
-            this.programTownCorporationIncToolStripMenuItem.Text = "Program Town Corporation Inc.";
+            this.AboutSub.Name = "AboutSub";
+            this.AboutSub.Size = new System.Drawing.Size(173, 22);
+            this.AboutSub.Text = "Program Town Inc.";
+            this.AboutSub.Click += new System.EventHandler(this.AboutSub_Click);
             // 
             // BTextBox9
             // 
@@ -406,10 +408,10 @@
         private System.Windows.Forms.Label PNLabel;
         private System.Windows.Forms.Label ADDLabel;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem programTownCorporationIncToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem FileMain;
+        private System.Windows.Forms.ToolStripMenuItem ExitTab;
+        private System.Windows.Forms.ToolStripMenuItem AboutMain;
+        private System.Windows.Forms.ToolStripMenuItem AboutSub;
         private System.Windows.Forms.TextBox BTextBox9;
         private System.Windows.Forms.TextBox CTextBox10;
         private System.Windows.Forms.Label BLabel;
