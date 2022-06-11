@@ -57,12 +57,14 @@ namespace MY_CONTACT_TRACING
         private void ReadHistory_Click(object sender, EventArgs e)
         {
             StreamReader reader = new StreamReader(@"C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\test.txt");
+            String all = reader.ReadToEnd();
+            MessageBox.Show(all);
 
-            while (!reader.EndOfStream)
-            {
-                String line = reader.ReadLine();
-                MessageBox.Show(line);
-            }
+            //while (!reader.EndOfStream)
+            //{
+            //    String line = reader.ReadLine();
+            //    MessageBox.Show(line);
+            //}
         }
     }
 }
