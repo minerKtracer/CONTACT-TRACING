@@ -66,17 +66,20 @@
             // 
             // EButton
             // 
-            this.EButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EButton.Location = new System.Drawing.Point(146, 412);
+            this.EButton.BackColor = System.Drawing.Color.Cornsilk;
+            this.EButton.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EButton.ForeColor = System.Drawing.Color.Goldenrod;
+            this.EButton.Location = new System.Drawing.Point(124, 412);
             this.EButton.Name = "EButton";
             this.EButton.Size = new System.Drawing.Size(76, 34);
             this.EButton.TabIndex = 0;
             this.EButton.Text = "ENTER";
-            this.EButton.UseVisualStyleBackColor = true;
+            this.EButton.UseVisualStyleBackColor = false;
             this.EButton.Click += new System.EventHandler(this.EButton_Click);
             // 
             // FNTextBox3
             // 
+            this.FNTextBox3.BackColor = System.Drawing.Color.PaleTurquoise;
             this.FNTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FNTextBox3.Location = new System.Drawing.Point(151, 103);
             this.FNTextBox3.Name = "FNTextBox3";
@@ -85,6 +88,7 @@
             // 
             // SNTextBox4
             // 
+            this.SNTextBox4.BackColor = System.Drawing.Color.PaleTurquoise;
             this.SNTextBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SNTextBox4.Location = new System.Drawing.Point(151, 130);
             this.SNTextBox4.Name = "SNTextBox4";
@@ -93,6 +97,7 @@
             // 
             // ATextBox5
             // 
+            this.ATextBox5.BackColor = System.Drawing.Color.PaleTurquoise;
             this.ATextBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ATextBox5.Location = new System.Drawing.Point(151, 157);
             this.ATextBox5.Name = "ATextBox5";
@@ -101,6 +106,7 @@
             // 
             // PNTextBox7
             // 
+            this.PNTextBox7.BackColor = System.Drawing.Color.PaleTurquoise;
             this.PNTextBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PNTextBox7.Location = new System.Drawing.Point(151, 210);
             this.PNTextBox7.Name = "PNTextBox7";
@@ -109,6 +115,7 @@
             // 
             // ADDTextBox8
             // 
+            this.ADDTextBox8.BackColor = System.Drawing.Color.PaleTurquoise;
             this.ADDTextBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ADDTextBox8.Location = new System.Drawing.Point(151, 237);
             this.ADDTextBox8.Name = "ADDTextBox8";
@@ -168,6 +175,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.Wheat;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.FileMain,
             this.AboutMain});
@@ -183,12 +191,14 @@
             this.ExitTab,
             this.ReadHistory});
             this.FileMain.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FileMain.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.FileMain.Name = "FileMain";
             this.FileMain.Size = new System.Drawing.Size(42, 21);
             this.FileMain.Text = "File";
             // 
             // ExitTab
             // 
+            this.ExitTab.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.ExitTab.Name = "ExitTab";
             this.ExitTab.Size = new System.Drawing.Size(152, 22);
             this.ExitTab.Text = "Exit";
@@ -199,12 +209,14 @@
             this.AboutMain.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.AboutSub});
             this.AboutMain.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AboutMain.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.AboutMain.Name = "AboutMain";
             this.AboutMain.Size = new System.Drawing.Size(58, 21);
             this.AboutMain.Text = "About";
             // 
             // AboutSub
             // 
+            this.AboutSub.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.AboutSub.Name = "AboutSub";
             this.AboutSub.Size = new System.Drawing.Size(192, 22);
             this.AboutSub.Text = "Program Town Inc.";
@@ -212,6 +224,7 @@
             // 
             // BTextBox9
             // 
+            this.BTextBox9.BackColor = System.Drawing.Color.PaleTurquoise;
             this.BTextBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTextBox9.Location = new System.Drawing.Point(182, 264);
             this.BTextBox9.Name = "BTextBox9";
@@ -220,6 +233,7 @@
             // 
             // CTextBox10
             // 
+            this.CTextBox10.BackColor = System.Drawing.Color.PaleTurquoise;
             this.CTextBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CTextBox10.Location = new System.Drawing.Point(182, 291);
             this.CTextBox10.Name = "CTextBox10";
@@ -258,6 +272,7 @@
             // 
             // STextBox6
             // 
+            this.STextBox6.BackColor = System.Drawing.Color.PaleTurquoise;
             this.STextBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.STextBox6.Location = new System.Drawing.Point(151, 183);
             this.STextBox6.Name = "STextBox6";
@@ -266,16 +281,19 @@
             // 
             // DVTextBox1
             // 
+            this.DVTextBox1.BackColor = System.Drawing.Color.PaleTurquoise;
             this.DVTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DVTextBox1.ForeColor = System.Drawing.Color.Black;
             this.DVTextBox1.Location = new System.Drawing.Point(196, 49);
             this.DVTextBox1.Name = "DVTextBox1";
-            this.DVTextBox1.Size = new System.Drawing.Size(84, 21);
+            this.DVTextBox1.Size = new System.Drawing.Size(98, 21);
             this.DVTextBox1.TabIndex = 18;
             // 
             // DVLabel
             // 
             this.DVLabel.AutoSize = true;
             this.DVLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DVLabel.ForeColor = System.Drawing.Color.AliceBlue;
             this.DVLabel.Location = new System.Drawing.Point(12, 52);
             this.DVLabel.Name = "DVLabel";
             this.DVLabel.Size = new System.Drawing.Size(178, 15);
@@ -286,14 +304,16 @@
             // 
             this.TILabel.AutoSize = true;
             this.TILabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TILabel.Location = new System.Drawing.Point(82, 80);
+            this.TILabel.ForeColor = System.Drawing.Color.AliceBlue;
+            this.TILabel.Location = new System.Drawing.Point(24, 79);
             this.TILabel.Name = "TILabel";
-            this.TILabel.Size = new System.Drawing.Size(63, 15);
+            this.TILabel.Size = new System.Drawing.Size(121, 15);
             this.TILabel.TabIndex = 20;
-            this.TILabel.Text = "Time in :";
+            this.TILabel.Text = "Time in (am/pm) :";
             // 
             // TITextBox2
             // 
+            this.TITextBox2.BackColor = System.Drawing.Color.PaleTurquoise;
             this.TITextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TITextBox2.Location = new System.Drawing.Point(151, 76);
             this.TITextBox2.Name = "TITextBox2";
@@ -312,6 +332,7 @@
             // 
             // ERTextBox11
             // 
+            this.ERTextBox11.BackColor = System.Drawing.Color.PaleTurquoise;
             this.ERTextBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ERTextBox11.Location = new System.Drawing.Point(151, 318);
             this.ERTextBox11.Name = "ERTextBox11";
@@ -330,6 +351,7 @@
             // 
             // VTextBox12
             // 
+            this.VTextBox12.BackColor = System.Drawing.Color.PaleTurquoise;
             this.VTextBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.VTextBox12.Location = new System.Drawing.Point(151, 345);
             this.VTextBox12.Name = "VTextBox12";
@@ -338,6 +360,7 @@
             // 
             // QTextBox13
             // 
+            this.QTextBox13.BackColor = System.Drawing.Color.PaleTurquoise;
             this.QTextBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.QTextBox13.Location = new System.Drawing.Point(182, 372);
             this.QTextBox13.Name = "QTextBox13";
@@ -356,6 +379,7 @@
             // 
             // ReadHistory
             // 
+            this.ReadHistory.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.ReadHistory.Name = "ReadHistory";
             this.ReadHistory.Size = new System.Drawing.Size(152, 22);
             this.ReadHistory.Text = "History";
@@ -365,6 +389,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.CornflowerBlue;
             this.ClientSize = new System.Drawing.Size(329, 458);
             this.Controls.Add(this.QLabel);
             this.Controls.Add(this.QTextBox13);
@@ -394,6 +419,7 @@
             this.Controls.Add(this.FNTextBox3);
             this.Controls.Add(this.EButton);
             this.Controls.Add(this.menuStrip1);
+            this.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "GetPass";
