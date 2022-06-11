@@ -27,11 +27,11 @@ namespace MY_CONTACT_TRACING
         {
             StreamWriter file = new StreamWriter(@"C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\test.txt", true);
             file.WriteLine("Information of the persons :");
-            file.WriteLine("First Name: " + FNTextBox1.Text);
-            file.WriteLine("Surname: " + SNTextBox2.Text);
-            file.WriteLine("Age: " + ATextBox3.Text);
-            file.WriteLine("Phone Number: " + PNTextBox4.Text);
-            file.WriteLine("Address: " + ADDTextBox5.Text);
+            file.WriteLine("First Name: " + FNTextBox3.Text);
+            file.WriteLine("Surname: " + SNTextBox4.Text);
+            file.WriteLine("Age: " + ATextBox5.Text);
+            file.WriteLine("Phone Number: " + PNTextBox7.Text);
+            file.WriteLine("Address: " + ADDTextBox8.Text);
             file.Close();
         }
     }

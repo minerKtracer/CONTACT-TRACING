@@ -1,0 +1,6 @@
+Information of the persons :
+First Name: 
+Surname: 
+Age: 
+Phone Number: 
+Address: 
