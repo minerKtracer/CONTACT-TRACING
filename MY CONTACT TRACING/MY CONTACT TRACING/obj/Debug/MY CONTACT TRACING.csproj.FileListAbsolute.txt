@@ -1,1 +1,9 @@
 C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\bin\Debug\MY CONTACT TRACING.exe.config
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\bin\Debug\MY CONTACT TRACING.exe
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\bin\Debug\MY CONTACT TRACING.pdb
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\obj\Debug\MY CONTACT TRACING.csprojResolveAssemblyReference.cache
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\obj\Debug\MY_CONTACT_TRACING.GetPass.resources
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\obj\Debug\MY_CONTACT_TRACING.Properties.Resources.resources
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\obj\Debug\MY CONTACT TRACING.csproj.GenerateResource.Cache
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\obj\Debug\MY CONTACT TRACING.exe
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\obj\Debug\MY CONTACT TRACING.pdb
