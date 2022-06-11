@@ -423,6 +423,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "GetPass";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "THE CONTACT TRACING";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
