@@ -33,7 +33,8 @@
             // 
             // EButton
             // 
-            this.EButton.Location = new System.Drawing.Point(102, 215);
+            this.EButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EButton.Location = new System.Drawing.Point(140, 215);
             this.EButton.Name = "EButton";
             this.EButton.Size = new System.Drawing.Size(76, 34);
             this.EButton.TabIndex = 0;
@@ -44,8 +45,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(355, 261);
             this.Controls.Add(this.EButton);
+            this.MinimizeBox = false;
             this.Name = "GetPass";
             this.Text = "THE CONTACT TRACING";
             this.ResumeLayout(false);
