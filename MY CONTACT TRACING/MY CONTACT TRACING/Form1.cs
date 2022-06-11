@@ -53,5 +53,16 @@ namespace MY_CONTACT_TRACING
             // Close the form.
             this.Close();
         }
+
+        private void ReadHistory_Click(object sender, EventArgs e)
+        {
+            StreamReader reader = new StreamReader(@"C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\test.txt");
+
+            while (!reader.EndOfStream)
+            {
+                String line = reader.ReadLine();
+                MessageBox.Show(line);
+            }
+        }
     }
 }

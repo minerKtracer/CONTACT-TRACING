@@ -60,6 +60,7 @@
             this.VTextBox12 = new System.Windows.Forms.TextBox();
             this.QTextBox13 = new System.Windows.Forms.TextBox();
             this.QLabel = new System.Windows.Forms.Label();
+            this.ReadHistory = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -172,16 +173,18 @@
             this.AboutMain});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(355, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(355, 25);
             this.menuStrip1.TabIndex = 11;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // FileMain
             // 
             this.FileMain.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ExitTab});
+            this.ExitTab,
+            this.ReadHistory});
+            this.FileMain.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FileMain.Name = "FileMain";
-            this.FileMain.Size = new System.Drawing.Size(37, 20);
+            this.FileMain.Size = new System.Drawing.Size(42, 21);
             this.FileMain.Text = "File";
             // 
             // ExitTab
@@ -195,14 +198,15 @@
             // 
             this.AboutMain.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.AboutSub});
+            this.AboutMain.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AboutMain.Name = "AboutMain";
-            this.AboutMain.Size = new System.Drawing.Size(52, 20);
+            this.AboutMain.Size = new System.Drawing.Size(58, 21);
             this.AboutMain.Text = "About";
             // 
             // AboutSub
             // 
             this.AboutSub.Name = "AboutSub";
-            this.AboutSub.Size = new System.Drawing.Size(173, 22);
+            this.AboutSub.Size = new System.Drawing.Size(192, 22);
             this.AboutSub.Text = "Program Town Inc.";
             this.AboutSub.Click += new System.EventHandler(this.AboutSub_Click);
             // 
@@ -350,6 +354,13 @@
             this.QLabel.TabIndex = 27;
             this.QLabel.Text = "How many dose? :";
             // 
+            // ReadHistory
+            // 
+            this.ReadHistory.Name = "ReadHistory";
+            this.ReadHistory.Size = new System.Drawing.Size(152, 22);
+            this.ReadHistory.Text = "History";
+            this.ReadHistory.Click += new System.EventHandler(this.ReadHistory_Click);
+            // 
             // GetPass
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -428,6 +439,7 @@
         private System.Windows.Forms.TextBox VTextBox12;
         private System.Windows.Forms.TextBox QTextBox13;
         private System.Windows.Forms.Label QLabel;
+        private System.Windows.Forms.ToolStripMenuItem ReadHistory;
     }
 }
 
