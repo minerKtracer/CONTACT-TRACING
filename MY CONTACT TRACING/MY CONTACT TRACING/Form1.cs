@@ -26,8 +26,7 @@ namespace MY_CONTACT_TRACING
         private void EButton_Click(object sender, EventArgs e)
         {
             StreamWriter file = new StreamWriter(@"C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\test.txt", true);
-            file.WriteLine("Information of the persons :");
-            file.WriteLine("Date of Visit (mm/dd/yyyy) : " + MTextBox14.Text);
+            file.WriteLine("Information of the person :");
             file.WriteLine("Time in (am/pm): " + TITextBox2.Text);
             file.WriteLine("First Name: " + FNTextBox3.Text);
             file.WriteLine("Surname: " + SNTextBox4.Text);
@@ -40,6 +39,9 @@ namespace MY_CONTACT_TRACING
             file.WriteLine("Expossure Risk: " + ERTextBox11.Text);
             file.WriteLine("Vaccinated (Y/N): " + VTextBox12.Text);
             file.WriteLine("How many dose?: " + QTextBox13.Text);
+            file.WriteLine("Month : " + MTextBox14.Text);
+            file.WriteLine("Day : " + DTextBox15.Text);
+            file.WriteLine("Year : " + YTextBox16.Text);
             file.Close();
         }
 

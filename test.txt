@@ -1,0 +1,16 @@
+Information of the person :
+Time in (am/pm): 8:00 am
+First Name: Daniel
+Surname: Del Rosario
+Age: 21
+Sex (F/M): M
+Phone Number: 09452401848
+Address: 59 Makabayan St.
+Baranagy: Obrero
+City: Quezon City
+Expossure Risk: None
+Vaccinated (Y/N): Y
+How many dose?: 2 doses
+Month : June
+Day : 11
+Year : 2022
