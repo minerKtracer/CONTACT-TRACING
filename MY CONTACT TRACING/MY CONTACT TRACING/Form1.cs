@@ -27,7 +27,7 @@ namespace MY_CONTACT_TRACING
         {
             StreamWriter file = new StreamWriter(@"C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\test.txt", true);
             file.WriteLine("Information of the persons :");
-            file.WriteLine("Date of Visit (mm/dd/yyyy: " + DVTextBox1.Text);
+            file.WriteLine("Date of Visit (mm/dd/yyyy) : " + MTextBox14.Text);
             file.WriteLine("Time in (am/pm): " + TITextBox2.Text);
             file.WriteLine("First Name: " + FNTextBox3.Text);
             file.WriteLine("Surname: " + SNTextBox4.Text);
