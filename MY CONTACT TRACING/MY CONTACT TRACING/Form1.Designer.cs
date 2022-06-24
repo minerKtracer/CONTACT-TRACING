@@ -64,11 +64,11 @@
             this.SDtextBox17 = new System.Windows.Forms.TextBox();
             this.SDLabel = new System.Windows.Forms.Label();
             this.SButton2 = new System.Windows.Forms.Button();
-            this.DtextBox15 = new System.Windows.Forms.TextBox();
+            this.DTextBox15 = new System.Windows.Forms.TextBox();
             this.MLabel = new System.Windows.Forms.Label();
             this.DLabel = new System.Windows.Forms.Label();
             this.YLabel = new System.Windows.Forms.Label();
-            this.YtextBox16 = new System.Windows.Forms.TextBox();
+            this.YTextBox16 = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -426,15 +426,15 @@
             this.SButton2.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.SButton2.UseVisualStyleBackColor = false;
             // 
-            // DtextBox15
+            // DTextBox15
             // 
-            this.DtextBox15.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.DtextBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DtextBox15.ForeColor = System.Drawing.Color.Black;
-            this.DtextBox15.Location = new System.Drawing.Point(332, 105);
-            this.DtextBox15.Name = "DtextBox15";
-            this.DtextBox15.Size = new System.Drawing.Size(45, 21);
-            this.DtextBox15.TabIndex = 32;
+            this.DTextBox15.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.DTextBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DTextBox15.ForeColor = System.Drawing.Color.Black;
+            this.DTextBox15.Location = new System.Drawing.Point(332, 105);
+            this.DTextBox15.Name = "DTextBox15";
+            this.DTextBox15.Size = new System.Drawing.Size(45, 21);
+            this.DTextBox15.TabIndex = 32;
             // 
             // MLabel
             // 
@@ -469,15 +469,15 @@
             this.YLabel.TabIndex = 35;
             this.YLabel.Text = "Year :";
             // 
-            // YtextBox16
+            // YTextBox16
             // 
-            this.YtextBox16.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.YtextBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.YtextBox16.ForeColor = System.Drawing.Color.Black;
-            this.YtextBox16.Location = new System.Drawing.Point(440, 105);
-            this.YtextBox16.Name = "YtextBox16";
-            this.YtextBox16.Size = new System.Drawing.Size(56, 21);
-            this.YtextBox16.TabIndex = 36;
+            this.YTextBox16.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.YTextBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.YTextBox16.ForeColor = System.Drawing.Color.Black;
+            this.YTextBox16.Location = new System.Drawing.Point(440, 105);
+            this.YTextBox16.Name = "YTextBox16";
+            this.YTextBox16.Size = new System.Drawing.Size(56, 21);
+            this.YTextBox16.TabIndex = 36;
             // 
             // GetPass
             // 
@@ -485,11 +485,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CornflowerBlue;
             this.ClientSize = new System.Drawing.Size(628, 366);
-            this.Controls.Add(this.YtextBox16);
+            this.Controls.Add(this.YTextBox16);
             this.Controls.Add(this.YLabel);
             this.Controls.Add(this.DLabel);
             this.Controls.Add(this.MLabel);
-            this.Controls.Add(this.DtextBox15);
+            this.Controls.Add(this.DTextBox15);
             this.Controls.Add(this.SButton2);
             this.Controls.Add(this.SDLabel);
             this.Controls.Add(this.SDtextBox17);
@@ -572,11 +572,11 @@
         private System.Windows.Forms.TextBox SDtextBox17;
         private System.Windows.Forms.Label SDLabel;
         private System.Windows.Forms.Button SButton2;
-        private System.Windows.Forms.TextBox DtextBox15;
+        private System.Windows.Forms.TextBox DTextBox15;
         private System.Windows.Forms.Label MLabel;
         private System.Windows.Forms.Label DLabel;
         private System.Windows.Forms.Label YLabel;
-        private System.Windows.Forms.TextBox YtextBox16;
+        private System.Windows.Forms.TextBox YTextBox16;
     }
 }
 
