@@ -27,6 +27,9 @@ namespace MY_CONTACT_TRACING
         {
             StreamWriter file = new StreamWriter(@"C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\test.txt", true);
             file.WriteLine("Information of the person :");
+            file.WriteLine("Month : " + MTextBox14.Text);
+            file.WriteLine("Day : " + DTextBox15.Text);
+            file.WriteLine("Year : " + YTextBox16.Text);
             file.WriteLine("Time in (am/pm): " + TITextBox2.Text);
             file.WriteLine("First Name: " + FNTextBox3.Text);
             file.WriteLine("Surname: " + SNTextBox4.Text);
@@ -39,10 +42,9 @@ namespace MY_CONTACT_TRACING
             file.WriteLine("Expossure Risk: " + ERTextBox11.Text);
             file.WriteLine("Vaccinated (Y/N): " + VTextBox12.Text);
             file.WriteLine("How many dose?: " + QTextBox13.Text);
-            file.WriteLine("Month : " + MTextBox14.Text);
-            file.WriteLine("Day : " + DTextBox15.Text);
-            file.WriteLine("Year : " + YTextBox16.Text);
             file.Close();
+
+            MessageBox.Show("Done");
         }
 
         private void AboutSub_Click(object sender, EventArgs e)
