@@ -68,15 +68,17 @@ namespace MY_CONTACT_TRACING
         private void SButton2_Click(object sender, EventArgs e)
         {
             var date = SDtextBox17.Text;
-            StreamReader reader = new StreamReader(@"C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\" + (date) + " date.txt");
-            String all = reader.ReadToEnd();
-            MessageBox.Show(all);
 
-            //while (!reader.EndOfStream)
+            StreamReader reader = new StreamReader(@"C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\" + (date) + " date.txt");
+            String file = reader.ReadToEnd();
+            MessageBox.Show(file);
+
+            //while (date < file.Length && !reader.EndOfStream)
             //{
-            //    String date = reader.ReadLine();
+            //    String line = reader.ReadLine(); index++;
             //    MessageBox.Show(line);
             //}
+            
         }
 
         private void RButton3_Click(object sender, EventArgs e)
