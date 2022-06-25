@@ -62,25 +62,13 @@ namespace MY_CONTACT_TRACING
 
         private void ReadHistory_Click(object sender, EventArgs e)
         {
-            StreamReader reader = new StreamReader(@"C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\test.txt");
-            String all = reader.ReadToEnd();
-            MessageBox.Show(all);
-
-            //while (!reader.EndOfStream)
-            //{
-            //    String line = reader.ReadLine();
-            //    MessageBox.Show(line);
-            //}
-            this.Close();
+            
         }
 
         private void SButton2_Click(object sender, EventArgs e)
         {
-            var Month = MTextBox14.Text;
-            var Day = DTextBox15.Text;
-            var Year = YTextBox16.Text;
-
-            StreamReader reader = new StreamReader(@"C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\" + (Month) + " " + (Day) + ", " + (Year) + " test.txt");
+            var date = SDtextBox17.Text;
+            StreamReader reader = new StreamReader(@"C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\" + (date) + " date.txt");
             String all = reader.ReadToEnd();
             MessageBox.Show(all);
 

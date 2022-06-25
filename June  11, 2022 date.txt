@@ -1,0 +1,15 @@
+Information of the person :
+Date : June  11 2022
+Search Dates :
+Time in (am/pm): 9:00 am
+First Name: Kylene
+Surname: Varona
+Age: 20
+Sex (F/M): F
+Phone Number: 09309046223
+Address: 19 V. Cruz St.
+Baranagy: 424
+City: Manila
+Expossure Risk: None
+Vaccinated (Y/N): Y
+How many dose?: 2 doses
