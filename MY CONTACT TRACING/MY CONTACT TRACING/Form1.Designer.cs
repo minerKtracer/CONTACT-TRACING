@@ -425,6 +425,7 @@
             this.SButton2.Text = "Search";
             this.SButton2.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.SButton2.UseVisualStyleBackColor = false;
+            this.SButton2.Click += new System.EventHandler(this.SButton2_Click);
             // 
             // DTextBox15
             // 

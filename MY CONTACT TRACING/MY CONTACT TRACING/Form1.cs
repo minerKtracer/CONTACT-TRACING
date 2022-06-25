@@ -25,11 +25,13 @@ namespace MY_CONTACT_TRACING
 
         private void EButton_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\test.txt", true);
+            var Month = MTextBox14.Text;
+            var Day = DTextBox15.Text;
+            var Year = YTextBox16.Text;
+            StreamWriter file = new StreamWriter(@"C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\" + (Month) + " " + (Day) + ", " + (Year) + " date.txt", true);
             file.WriteLine("Information of the person :");
-            file.WriteLine("Month : " + MTextBox14.Text);
-            file.WriteLine("Day : " + DTextBox15.Text);
-            file.WriteLine("Year : " + YTextBox16.Text);
+            file.WriteLine("Date : " + MTextBox14.Text + " " + DTextBox15.Text + " " + YTextBox16.Text);
+            file.WriteLine("Search Dates :" + SDtextBox17.Text);
             file.WriteLine("Time in (am/pm): " + TITextBox2.Text);
             file.WriteLine("First Name: " + FNTextBox3.Text);
             file.WriteLine("Surname: " + SNTextBox4.Text);
@@ -67,6 +69,24 @@ namespace MY_CONTACT_TRACING
             //while (!reader.EndOfStream)
             //{
             //    String line = reader.ReadLine();
+            //    MessageBox.Show(line);
+            //}
+            this.Close();
+        }
+
+        private void SButton2_Click(object sender, EventArgs e)
+        {
+            var Month = MTextBox14.Text;
+            var Day = DTextBox15.Text;
+            var Year = YTextBox16.Text;
+
+            StreamReader reader = new StreamReader(@"C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\" + (Month) + " " + (Day) + ", " + (Year) + " test.txt");
+            String all = reader.ReadToEnd();
+            MessageBox.Show(all);
+
+            //while (!reader.EndOfStream)
+            //{
+            //    String date = reader.ReadLine();
             //    MessageBox.Show(line);
             //}
         }
