@@ -31,7 +31,6 @@ namespace MY_CONTACT_TRACING
             StreamWriter file = new StreamWriter(@"C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\" + (Month) + " " + (Day) + ", " + (Year) + " date.txt", true);
             file.WriteLine("Information of the person :");
             file.WriteLine("Date : " + MTextBox14.Text + " " + DTextBox15.Text + " " + YTextBox16.Text);
-            file.WriteLine("Search Dates :" + SDtextBox17.Text);
             file.WriteLine("Time in (am/pm): " + TITextBox2.Text);
             file.WriteLine("First Name: " + FNTextBox3.Text);
             file.WriteLine("Surname: " + SNTextBox4.Text);
@@ -47,6 +46,7 @@ namespace MY_CONTACT_TRACING
             file.Close();
 
             MessageBox.Show("Done");
+        
         }
 
         private void AboutSub_Click(object sender, EventArgs e)

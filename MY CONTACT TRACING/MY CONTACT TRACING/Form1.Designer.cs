@@ -42,7 +42,6 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.FileMain = new System.Windows.Forms.ToolStripMenuItem();
             this.ExitTab = new System.Windows.Forms.ToolStripMenuItem();
-            this.ReadHistory = new System.Windows.Forms.ToolStripMenuItem();
             this.AboutMain = new System.Windows.Forms.ToolStripMenuItem();
             this.AboutSub = new System.Windows.Forms.ToolStripMenuItem();
             this.BTextBox9 = new System.Windows.Forms.TextBox();
@@ -196,8 +195,7 @@
             // FileMain
             // 
             this.FileMain.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ExitTab,
-            this.ReadHistory});
+            this.ExitTab});
             this.FileMain.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FileMain.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.FileMain.Name = "FileMain";
@@ -208,17 +206,9 @@
             // 
             this.ExitTab.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.ExitTab.Name = "ExitTab";
-            this.ExitTab.Size = new System.Drawing.Size(122, 22);
+            this.ExitTab.Size = new System.Drawing.Size(152, 22);
             this.ExitTab.Text = "Exit";
             this.ExitTab.Click += new System.EventHandler(this.ExitTab_Click);
-            // 
-            // ReadHistory
-            // 
-            this.ReadHistory.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.ReadHistory.Name = "ReadHistory";
-            this.ReadHistory.Size = new System.Drawing.Size(122, 22);
-            this.ReadHistory.Text = "History";
-            this.ReadHistory.Click += new System.EventHandler(this.ReadHistory_Click);
             // 
             // AboutMain
             // 
@@ -484,7 +474,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.BackColor = System.Drawing.SystemColors.Highlight;
             this.ClientSize = new System.Drawing.Size(628, 366);
             this.Controls.Add(this.YTextBox16);
             this.Controls.Add(this.YLabel);
@@ -569,7 +559,6 @@
         private System.Windows.Forms.TextBox VTextBox12;
         private System.Windows.Forms.TextBox QTextBox13;
         private System.Windows.Forms.Label QLabel;
-        private System.Windows.Forms.ToolStripMenuItem ReadHistory;
         private System.Windows.Forms.TextBox SDtextBox17;
         private System.Windows.Forms.Label SDLabel;
         private System.Windows.Forms.Button SButton2;
