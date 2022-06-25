@@ -100,6 +100,8 @@ namespace MY_CONTACT_TRACING
                 ERTextBox11.Text = "";
                 VTextBox12.Text = "";
                 QTextBox13.Text = "";
+
+                MessageBox.Show("Reset is Done");
             }
         }
     }
