@@ -68,6 +68,7 @@
             this.DLabel = new System.Windows.Forms.Label();
             this.YLabel = new System.Windows.Forms.Label();
             this.YTextBox16 = new System.Windows.Forms.TextBox();
+            this.RButton3 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -76,11 +77,11 @@
             this.EButton.BackColor = System.Drawing.Color.Linen;
             this.EButton.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EButton.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.EButton.Location = new System.Drawing.Point(272, 312);
+            this.EButton.Location = new System.Drawing.Point(278, 312);
             this.EButton.Name = "EButton";
-            this.EButton.Size = new System.Drawing.Size(76, 34);
+            this.EButton.Size = new System.Drawing.Size(70, 34);
             this.EButton.TabIndex = 0;
-            this.EButton.Text = "ENTER";
+            this.EButton.Text = "Enter";
             this.EButton.UseVisualStyleBackColor = false;
             this.EButton.Click += new System.EventHandler(this.EButton_Click);
             // 
@@ -470,12 +471,26 @@
             this.YTextBox16.Size = new System.Drawing.Size(56, 21);
             this.YTextBox16.TabIndex = 36;
             // 
+            // RButton3
+            // 
+            this.RButton3.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.RButton3.Font = new System.Drawing.Font("Segoe Marker", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RButton3.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.RButton3.Location = new System.Drawing.Point(516, 315);
+            this.RButton3.Name = "RButton3";
+            this.RButton3.Size = new System.Drawing.Size(75, 31);
+            this.RButton3.TabIndex = 37;
+            this.RButton3.Text = "Reset";
+            this.RButton3.UseVisualStyleBackColor = false;
+            this.RButton3.Click += new System.EventHandler(this.RButton3_Click);
+            // 
             // GetPass
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
             this.ClientSize = new System.Drawing.Size(628, 366);
+            this.Controls.Add(this.RButton3);
             this.Controls.Add(this.YTextBox16);
             this.Controls.Add(this.YLabel);
             this.Controls.Add(this.DLabel);
@@ -567,6 +582,7 @@
         private System.Windows.Forms.Label DLabel;
         private System.Windows.Forms.Label YLabel;
         private System.Windows.Forms.TextBox YTextBox16;
+        private System.Windows.Forms.Button RButton3;
     }
 }
 

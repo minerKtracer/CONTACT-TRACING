@@ -78,5 +78,27 @@ namespace MY_CONTACT_TRACING
             //    MessageBox.Show(line);
             //}
         }
+
+        private void RButton3_Click(object sender, EventArgs e)
+        {
+            if (MTextBox14.Text != string.Empty || DTextBox15.Text != string.Empty || YTextBox16.Text != string.Empty || TITextBox2.Text != string.Empty || FNTextBox3.Text != string.Empty || SNTextBox4.Text != string.Empty || ATextBox5.Text != string.Empty || STextBox6.Text != string.Empty || PNTextBox7.Text != string.Empty || ADDTextBox8.Text != string.Empty || BTextBox9.Text != string.Empty || CTextBox10.Text != string.Empty || ERTextBox11.Text != string.Empty || QTextBox13.Text != string.Empty)
+            {
+                MTextBox14.Text = "";
+                DTextBox15.Text = "";
+                YTextBox16.Text = "";
+                TITextBox2.Text = "";
+                FNTextBox3.Text = "";
+                SNTextBox4.Text = "";
+                ATextBox5.Text = "";
+                STextBox6.Text = "";
+                PNTextBox7.Text = "";
+                ADDTextBox8.Text = "";
+                BTextBox9.Text = "";
+                CTextBox10.Text = "";
+                ERTextBox11.Text = "";
+                VTextBox12.Text = "";
+                QTextBox13.Text = "";
+            }
+        }
     }
 }
