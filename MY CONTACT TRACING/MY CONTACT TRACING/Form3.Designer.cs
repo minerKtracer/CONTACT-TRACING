@@ -57,6 +57,7 @@
             this.BtnQRCode.TabIndex = 1;
             this.BtnQRCode.Text = "QR Code";
             this.BtnQRCode.UseVisualStyleBackColor = true;
+            this.BtnQRCode.Click += new System.EventHandler(this.BtnQRCode_Click);
             // 
             // label1
             // 
@@ -106,8 +107,9 @@
             this.Controls.Add(this.BtnManual);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "Homepage";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
-            this.Load += new System.EventHandler(this.Homepage_Load);
+            this.VisibleChanged += new System.EventHandler(this.Homepage_Load);
             this.Cname.ResumeLayout(false);
             this.Cname.PerformLayout();
             this.ResumeLayout(false);

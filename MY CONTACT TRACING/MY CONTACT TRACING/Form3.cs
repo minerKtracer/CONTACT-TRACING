@@ -24,8 +24,20 @@ namespace MY_CONTACT_TRACING
 
         private void BtnManual_Click(object sender, EventArgs e)
         {
+            this.Hide();
             ManualPass Mp = new ManualPass();
             Mp.ShowDialog(); // Shows Manual Pass
+
+            this.Show();
+        }
+
+        private void BtnQRCode_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            QRcodepass Qp = new QRcodepass();
+            Qp.ShowDialog(); // Shows QRcodepass
+
+            this.Show();
         }
     }
 }

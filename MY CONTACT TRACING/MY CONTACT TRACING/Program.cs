@@ -16,7 +16,7 @@ namespace MY_CONTACT_TRACING
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ManualPass());
+            Application.Run(new Homepage());
         }
     }
 }
