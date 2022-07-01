@@ -1,0 +1,14 @@
+Information of the person :
+Date : June  24 2022
+Time in (am/pm): 10:00 am
+First Name: Jemarie
+Surname: Vergara
+Age: 19
+Sex (F/M): F
+Phone Number: 09607892263
+Address: New York St.
+Baranagy: Immaculate
+City: Quezon City
+Expossure Risk: None
+Vaccinated (Y/N): Y
+How many dose?: 2 doses

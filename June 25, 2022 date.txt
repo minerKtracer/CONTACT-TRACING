@@ -11,4 +11,4 @@ Baranagy: 478
 City: Manila
 Expossure Risk: None
 Vaccinated (Y/N): Y
-How many dose?: 2 doses
+

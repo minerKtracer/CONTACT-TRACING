@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace MY_CONTACT_TRACING
 {
-    public partial class GetPass : Form
+    public partial class ManualPass : Form
     {
-        public GetPass()
+        public ManualPass()
         {
             InitializeComponent();
         }
@@ -101,7 +101,7 @@ namespace MY_CONTACT_TRACING
                 VTextBox12.Text = "";
                 QTextBox13.Text = "";
 
-                MessageBox.Show("Reset is Done");
+                MessageBox.Show("Reset is Done.");
             }
         }
     }

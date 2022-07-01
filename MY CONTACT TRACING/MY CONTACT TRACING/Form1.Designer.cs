@@ -1,6 +1,6 @@
 ﻿namespace MY_CONTACT_TRACING
 {
-    partial class GetPass
+    partial class ManualPass
     {
         /// <summary>
         /// Required designer variable.
@@ -207,7 +207,7 @@
             // 
             this.ExitTab.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.ExitTab.Name = "ExitTab";
-            this.ExitTab.Size = new System.Drawing.Size(152, 22);
+            this.ExitTab.Size = new System.Drawing.Size(99, 22);
             this.ExitTab.Text = "Exit";
             this.ExitTab.Click += new System.EventHandler(this.ExitTab_Click);
             // 
@@ -484,7 +484,7 @@
             this.RButton3.UseVisualStyleBackColor = false;
             this.RButton3.Click += new System.EventHandler(this.RButton3_Click);
             // 
-            // GetPass
+            // ManualPass
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -530,7 +530,7 @@
             this.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
-            this.Name = "GetPass";
+            this.Name = "ManualPass";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "THE CONTACT TRACING";
             this.menuStrip1.ResumeLayout(false);
