@@ -106,6 +106,7 @@
             this.Controls.Add(this.BtnQRCode);
             this.Controls.Add(this.BtnManual);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.MaximizeBox = false;
             this.Name = "Homepage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
