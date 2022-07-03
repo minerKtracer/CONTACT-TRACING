@@ -35,19 +35,19 @@
             this.bTB = new System.Windows.Forms.TextBox();
             this.haTB = new System.Windows.Forms.TextBox();
             this.pnTB = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.FLabel = new System.Windows.Forms.Label();
+            this.AgeLabel = new System.Windows.Forms.Label();
+            this.SexLabel = new System.Windows.Forms.Label();
+            this.PLabel = new System.Windows.Forms.Label();
+            this.QLabel = new System.Windows.Forms.Label();
+            this.HLabel = new System.Windows.Forms.Label();
             this.GQr = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.BRGYLabel = new System.Windows.Forms.Label();
+            this.CityLabel = new System.Windows.Forms.Label();
             this.cTB = new System.Windows.Forms.TextBox();
             this.vTB = new System.Windows.Forms.TextBox();
             this.erTB = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
+            this.ERISKLabel = new System.Windows.Forms.Label();
             this.QRCaption = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.HELPMenu = new System.Windows.Forms.ToolStripMenuItem();
@@ -60,9 +60,9 @@
             // 
             // PBoxImage
             // 
-            this.PBoxImage.Location = new System.Drawing.Point(309, 73);
+            this.PBoxImage.Location = new System.Drawing.Point(345, 83);
             this.PBoxImage.Name = "PBoxImage";
-            this.PBoxImage.Size = new System.Drawing.Size(178, 161);
+            this.PBoxImage.Size = new System.Drawing.Size(192, 178);
             this.PBoxImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PBoxImage.TabIndex = 0;
             this.PBoxImage.TabStop = false;
@@ -72,7 +72,7 @@
             this.fnTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fnTB.Location = new System.Drawing.Point(140, 83);
             this.fnTB.Name = "fnTB";
-            this.fnTB.Size = new System.Drawing.Size(156, 21);
+            this.fnTB.Size = new System.Drawing.Size(180, 21);
             this.fnTB.TabIndex = 1;
             // 
             // aTB
@@ -80,7 +80,7 @@
             this.aTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.aTB.Location = new System.Drawing.Point(140, 108);
             this.aTB.Name = "aTB";
-            this.aTB.Size = new System.Drawing.Size(100, 21);
+            this.aTB.Size = new System.Drawing.Size(109, 21);
             this.aTB.TabIndex = 2;
             // 
             // gTB
@@ -88,7 +88,7 @@
             this.gTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gTB.Location = new System.Drawing.Point(140, 135);
             this.gTB.Name = "gTB";
-            this.gTB.Size = new System.Drawing.Size(100, 21);
+            this.gTB.Size = new System.Drawing.Size(109, 21);
             this.gTB.TabIndex = 3;
             // 
             // bTB
@@ -104,7 +104,7 @@
             this.haTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.haTB.Location = new System.Drawing.Point(140, 189);
             this.haTB.Name = "haTB";
-            this.haTB.Size = new System.Drawing.Size(156, 21);
+            this.haTB.Size = new System.Drawing.Size(180, 21);
             this.haTB.TabIndex = 4;
             // 
             // pnTB
@@ -112,98 +112,98 @@
             this.pnTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnTB.Location = new System.Drawing.Point(140, 162);
             this.pnTB.Name = "pnTB";
-            this.pnTB.Size = new System.Drawing.Size(100, 21);
+            this.pnTB.Size = new System.Drawing.Size(109, 21);
             this.pnTB.TabIndex = 5;
             // 
-            // label1
+            // FLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(54, 86);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 15);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Full Name :";
+            this.FLabel.AutoSize = true;
+            this.FLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FLabel.Location = new System.Drawing.Point(54, 86);
+            this.FLabel.Name = "FLabel";
+            this.FLabel.Size = new System.Drawing.Size(81, 15);
+            this.FLabel.TabIndex = 6;
+            this.FLabel.Text = "Full Name :";
             // 
-            // label2
+            // AgeLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(96, 111);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(39, 15);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Age :";
+            this.AgeLabel.AutoSize = true;
+            this.AgeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AgeLabel.Location = new System.Drawing.Point(96, 111);
+            this.AgeLabel.Name = "AgeLabel";
+            this.AgeLabel.Size = new System.Drawing.Size(39, 15);
+            this.AgeLabel.TabIndex = 7;
+            this.AgeLabel.Text = "Age :";
             // 
-            // label3
+            // SexLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(35, 138);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 15);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Gender (F/M) :";
+            this.SexLabel.AutoSize = true;
+            this.SexLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SexLabel.Location = new System.Drawing.Point(58, 138);
+            this.SexLabel.Name = "SexLabel";
+            this.SexLabel.Size = new System.Drawing.Size(77, 15);
+            this.SexLabel.TabIndex = 8;
+            this.SexLabel.Text = "Sex (F/M) :";
             // 
-            // label4
+            // PLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(24, 165);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(111, 15);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "Phone Number :";
+            this.PLabel.AutoSize = true;
+            this.PLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PLabel.Location = new System.Drawing.Point(24, 165);
+            this.PLabel.Name = "PLabel";
+            this.PLabel.Size = new System.Drawing.Size(111, 15);
+            this.PLabel.TabIndex = 9;
+            this.PLabel.Text = "Phone Number :";
             // 
-            // label5
+            // QLabel
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(18, 282);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(172, 15);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "Are you fully vaccinated? :";
+            this.QLabel.AutoSize = true;
+            this.QLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QLabel.Location = new System.Drawing.Point(18, 282);
+            this.QLabel.Name = "QLabel";
+            this.QLabel.Size = new System.Drawing.Size(172, 15);
+            this.QLabel.TabIndex = 10;
+            this.QLabel.Text = "Are you fully vaccinated? :";
             // 
-            // label6
+            // HLabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(27, 192);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(108, 15);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "Home Address :";
+            this.HLabel.AutoSize = true;
+            this.HLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HLabel.Location = new System.Drawing.Point(27, 192);
+            this.HLabel.Name = "HLabel";
+            this.HLabel.Size = new System.Drawing.Size(108, 15);
+            this.HLabel.TabIndex = 11;
+            this.HLabel.Text = "Home Address :";
             // 
             // GQr
             // 
             this.GQr.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GQr.Location = new System.Drawing.Point(341, 246);
+            this.GQr.Location = new System.Drawing.Point(385, 270);
             this.GQr.Name = "GQr";
             this.GQr.Size = new System.Drawing.Size(117, 40);
             this.GQr.TabIndex = 12;
             this.GQr.Text = "Generate QR";
             this.GQr.UseVisualStyleBackColor = true;
             // 
-            // label7
+            // BRGYLabel
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(60, 219);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(75, 15);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "Barangay :";
+            this.BRGYLabel.AutoSize = true;
+            this.BRGYLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BRGYLabel.Location = new System.Drawing.Point(60, 219);
+            this.BRGYLabel.Name = "BRGYLabel";
+            this.BRGYLabel.Size = new System.Drawing.Size(75, 15);
+            this.BRGYLabel.TabIndex = 13;
+            this.BRGYLabel.Text = "Barangay :";
             // 
-            // label8
+            // CityLabel
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(97, 246);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(38, 15);
-            this.label8.TabIndex = 14;
-            this.label8.Text = "City :";
+            this.CityLabel.AutoSize = true;
+            this.CityLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CityLabel.Location = new System.Drawing.Point(97, 246);
+            this.CityLabel.Name = "CityLabel";
+            this.CityLabel.Size = new System.Drawing.Size(38, 15);
+            this.CityLabel.TabIndex = 14;
+            this.CityLabel.Text = "City :";
             // 
             // cTB
             // 
@@ -229,21 +229,21 @@
             this.erTB.Size = new System.Drawing.Size(100, 21);
             this.erTB.TabIndex = 17;
             // 
-            // label9
+            // ERISKLabel
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(75, 314);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(115, 15);
-            this.label9.TabIndex = 18;
-            this.label9.Text = "Exposure Risk? :";
+            this.ERISKLabel.AutoSize = true;
+            this.ERISKLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ERISKLabel.Location = new System.Drawing.Point(75, 314);
+            this.ERISKLabel.Name = "ERISKLabel";
+            this.ERISKLabel.Size = new System.Drawing.Size(115, 15);
+            this.ERISKLabel.TabIndex = 18;
+            this.ERISKLabel.Text = "Exposure Risk? :";
             // 
             // QRCaption
             // 
             this.QRCaption.AutoSize = true;
             this.QRCaption.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QRCaption.Location = new System.Drawing.Point(53, 41);
+            this.QRCaption.Location = new System.Drawing.Point(192, 35);
             this.QRCaption.Name = "QRCaption";
             this.QRCaption.Size = new System.Drawing.Size(196, 24);
             this.QRCaption.TabIndex = 19;
@@ -256,7 +256,7 @@
             this.ABOUTMenu});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(515, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(565, 24);
             this.menuStrip1.TabIndex = 20;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -292,21 +292,21 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(515, 352);
+            this.ClientSize = new System.Drawing.Size(565, 352);
             this.Controls.Add(this.QRCaption);
-            this.Controls.Add(this.label9);
+            this.Controls.Add(this.ERISKLabel);
             this.Controls.Add(this.erTB);
             this.Controls.Add(this.vTB);
             this.Controls.Add(this.cTB);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.CityLabel);
+            this.Controls.Add(this.BRGYLabel);
             this.Controls.Add(this.GQr);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.HLabel);
+            this.Controls.Add(this.QLabel);
+            this.Controls.Add(this.PLabel);
+            this.Controls.Add(this.SexLabel);
+            this.Controls.Add(this.AgeLabel);
+            this.Controls.Add(this.FLabel);
             this.Controls.Add(this.pnTB);
             this.Controls.Add(this.haTB);
             this.Controls.Add(this.bTB);
@@ -336,19 +336,19 @@
         private System.Windows.Forms.TextBox bTB;
         private System.Windows.Forms.TextBox haTB;
         private System.Windows.Forms.TextBox pnTB;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label FLabel;
+        private System.Windows.Forms.Label AgeLabel;
+        private System.Windows.Forms.Label SexLabel;
+        private System.Windows.Forms.Label PLabel;
+        private System.Windows.Forms.Label QLabel;
+        private System.Windows.Forms.Label HLabel;
         private System.Windows.Forms.Button GQr;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label BRGYLabel;
+        private System.Windows.Forms.Label CityLabel;
         private System.Windows.Forms.TextBox cTB;
         private System.Windows.Forms.TextBox vTB;
         private System.Windows.Forms.TextBox erTB;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label ERISKLabel;
         private System.Windows.Forms.Label QRCaption;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem HELPMenu;
