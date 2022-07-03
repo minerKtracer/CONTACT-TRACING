@@ -64,7 +64,8 @@
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(274, 41);
+            this.btnStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStart.Location = new System.Drawing.Point(24, 74);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(75, 26);
             this.btnStart.TabIndex = 0;
@@ -75,23 +76,26 @@
             // CLabel
             // 
             this.CLabel.AutoSize = true;
-            this.CLabel.Location = new System.Drawing.Point(21, 44);
+            this.CLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CLabel.Location = new System.Drawing.Point(141, 50);
             this.CLabel.Name = "CLabel";
-            this.CLabel.Size = new System.Drawing.Size(43, 13);
+            this.CLabel.Size = new System.Drawing.Size(70, 16);
             this.CLabel.TabIndex = 1;
-            this.CLabel.Text = "Camera";
+            this.CLabel.Text = "Camera :";
             // 
             // CBox
             // 
+            this.CBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CBox.FormattingEnabled = true;
-            this.CBox.Location = new System.Drawing.Point(70, 41);
+            this.CBox.Location = new System.Drawing.Point(217, 47);
             this.CBox.Name = "CBox";
-            this.CBox.Size = new System.Drawing.Size(198, 21);
+            this.CBox.Size = new System.Drawing.Size(198, 24);
             this.CBox.TabIndex = 3;
             // 
             // PBox
             // 
-            this.PBox.Location = new System.Drawing.Point(24, 92);
+            this.PBox.BackColor = System.Drawing.Color.Snow;
+            this.PBox.Location = new System.Drawing.Point(24, 117);
             this.PBox.Name = "PBox";
             this.PBox.Size = new System.Drawing.Size(281, 265);
             this.PBox.TabIndex = 4;
@@ -99,12 +103,14 @@
             // 
             // MenuQRG
             // 
+            this.MenuQRG.BackColor = System.Drawing.Color.OldLace;
+            this.MenuQRG.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MenuQRG.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MenuHelp,
             this.MenuAbout});
             this.MenuQRG.Location = new System.Drawing.Point(0, 0);
             this.MenuQRG.Name = "MenuQRG";
-            this.MenuQRG.Size = new System.Drawing.Size(660, 24);
+            this.MenuQRG.Size = new System.Drawing.Size(660, 25);
             this.MenuQRG.TabIndex = 5;
             // 
             // MenuHelp
@@ -127,7 +133,7 @@
             this.MenuAbout.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MenuName});
             this.MenuAbout.Name = "MenuAbout";
-            this.MenuAbout.Size = new System.Drawing.Size(52, 20);
+            this.MenuAbout.Size = new System.Drawing.Size(58, 21);
             this.MenuAbout.Text = "About";
             // 
             // MenuName
@@ -306,9 +312,10 @@
             // 
             // btnSubmit
             // 
-            this.btnSubmit.Location = new System.Drawing.Point(436, 349);
+            this.btnSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubmit.Location = new System.Drawing.Point(446, 364);
             this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(75, 26);
+            this.btnSubmit.Size = new System.Drawing.Size(75, 29);
             this.btnSubmit.TabIndex = 37;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = true;
@@ -318,7 +325,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(660, 387);
+            this.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.ClientSize = new System.Drawing.Size(660, 413);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.ERISKLabel);
             this.Controls.Add(this.erTB9);

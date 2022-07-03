@@ -62,6 +62,7 @@
             // 
             // PBoxImage
             // 
+            this.PBoxImage.BackColor = System.Drawing.Color.LavenderBlush;
             this.PBoxImage.Location = new System.Drawing.Point(345, 83);
             this.PBoxImage.Name = "PBoxImage";
             this.PBoxImage.Size = new System.Drawing.Size(192, 178);
@@ -254,6 +255,8 @@
             // 
             // MenuSignUp
             // 
+            this.MenuSignUp.BackColor = System.Drawing.Color.Azure;
+            this.MenuSignUp.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MenuSignUp.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.HELPMenu,
             this.ABOUTMenu});
@@ -314,6 +317,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(577, 365);
             this.Controls.Add(this.QRFileNameTB);
             this.Controls.Add(this.label1);
