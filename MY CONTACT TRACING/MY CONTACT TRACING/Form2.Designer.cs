@@ -34,14 +34,14 @@
             this.TxtBShow = new System.Windows.Forms.TextBox();
             this.CBox = new System.Windows.Forms.ComboBox();
             this.PBox = new System.Windows.Forms.PictureBox();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.MenuQRG = new System.Windows.Forms.MenuStrip();
             this.MenuHelp = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.Ftimer = new System.Windows.Forms.Timer(this.components);
             this.MenuExit = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuName = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.PBox)).BeginInit();
-            this.menuStrip1.SuspendLayout();
+            this.MenuQRG.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnStart
@@ -87,16 +87,16 @@
             this.PBox.TabIndex = 4;
             this.PBox.TabStop = false;
             // 
-            // menuStrip1
+            // MenuQRG
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MenuQRG.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MenuHelp,
             this.MenuAbout});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(707, 24);
-            this.menuStrip1.TabIndex = 5;
-            this.menuStrip1.Text = "menuStrip1";
+            this.MenuQRG.Location = new System.Drawing.Point(0, 0);
+            this.MenuQRG.Name = "MenuQRG";
+            this.MenuQRG.Size = new System.Drawing.Size(707, 24);
+            this.MenuQRG.TabIndex = 5;
+            this.MenuQRG.Text = "menuStrip1";
             // 
             // MenuHelp
             // 
@@ -143,16 +143,16 @@
             this.Controls.Add(this.TxtBShow);
             this.Controls.Add(this.CLabel);
             this.Controls.Add(this.btnStart);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
+            this.Controls.Add(this.MenuQRG);
+            this.MainMenuStrip = this.MenuQRG;
             this.Name = "QRcodepass";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "QR Code";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.QRcodepass_FormClosing);
             this.Load += new System.EventHandler(this.QRcodepass_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PBox)).EndInit();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.MenuQRG.ResumeLayout(false);
+            this.MenuQRG.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -165,7 +165,7 @@
         private System.Windows.Forms.TextBox TxtBShow;
         private System.Windows.Forms.ComboBox CBox;
         private System.Windows.Forms.PictureBox PBox;
-        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.MenuStrip MenuQRG;
         private System.Windows.Forms.ToolStripMenuItem MenuHelp;
         private System.Windows.Forms.ToolStripMenuItem MenuAbout;
         private System.Windows.Forms.Timer Ftimer;

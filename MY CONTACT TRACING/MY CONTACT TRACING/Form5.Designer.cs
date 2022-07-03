@@ -49,7 +49,7 @@
             this.erTB = new System.Windows.Forms.TextBox();
             this.ERISKLabel = new System.Windows.Forms.Label();
             this.QRCaption = new System.Windows.Forms.Label();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.MenuSignUp = new System.Windows.Forms.MenuStrip();
             this.HELPMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.ABOUTMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.COMPANYMenu = new System.Windows.Forms.ToolStripMenuItem();
@@ -57,7 +57,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.QRFileNameTB = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.PBoxImage)).BeginInit();
-            this.menuStrip1.SuspendLayout();
+            this.MenuSignUp.SuspendLayout();
             this.SuspendLayout();
             // 
             // PBoxImage
@@ -252,16 +252,16 @@
             this.QRCaption.TabIndex = 19;
             this.QRCaption.Text = "QR CODE PROFILE";
             // 
-            // menuStrip1
+            // MenuSignUp
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MenuSignUp.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.HELPMenu,
             this.ABOUTMenu});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(577, 24);
-            this.menuStrip1.TabIndex = 20;
-            this.menuStrip1.Text = "menuStrip1";
+            this.MenuSignUp.Location = new System.Drawing.Point(0, 0);
+            this.MenuSignUp.Name = "MenuSignUp";
+            this.MenuSignUp.Size = new System.Drawing.Size(577, 24);
+            this.MenuSignUp.TabIndex = 20;
+            this.MenuSignUp.Text = "menuStrip1";
             // 
             // HELPMenu
             // 
@@ -284,12 +284,14 @@
             this.COMPANYMenu.Name = "COMPANYMenu";
             this.COMPANYMenu.Size = new System.Drawing.Size(173, 22);
             this.COMPANYMenu.Text = "Program Town Inc.";
+            this.COMPANYMenu.Click += new System.EventHandler(this.COMPANYMenu_Click);
             // 
             // EXITMenu
             // 
             this.EXITMenu.Name = "EXITMenu";
             this.EXITMenu.Size = new System.Drawing.Size(152, 22);
             this.EXITMenu.Text = "Exit";
+            this.EXITMenu.Click += new System.EventHandler(this.EXITMenu_Click);
             // 
             // label1
             // 
@@ -337,14 +339,15 @@
             this.Controls.Add(this.aTB);
             this.Controls.Add(this.fnTB);
             this.Controls.Add(this.PBoxImage);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
+            this.Controls.Add(this.MenuSignUp);
+            this.MainMenuStrip = this.MenuSignUp;
             this.MaximizeBox = false;
             this.Name = "SignUpPage";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sign Up";
             ((System.ComponentModel.ISupportInitialize)(this.PBoxImage)).EndInit();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.MenuSignUp.ResumeLayout(false);
+            this.MenuSignUp.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -373,7 +376,7 @@
         private System.Windows.Forms.TextBox erTB;
         private System.Windows.Forms.Label ERISKLabel;
         private System.Windows.Forms.Label QRCaption;
-        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.MenuStrip MenuSignUp;
         private System.Windows.Forms.ToolStripMenuItem HELPMenu;
         private System.Windows.Forms.ToolStripMenuItem EXITMenu;
         private System.Windows.Forms.ToolStripMenuItem ABOUTMenu;

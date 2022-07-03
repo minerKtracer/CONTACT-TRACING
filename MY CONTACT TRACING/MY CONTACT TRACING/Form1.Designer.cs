@@ -39,7 +39,7 @@
             this.ALabel = new System.Windows.Forms.Label();
             this.PNLabel = new System.Windows.Forms.Label();
             this.ADDLabel = new System.Windows.Forms.Label();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.MenuManual = new System.Windows.Forms.MenuStrip();
             this.FileMain = new System.Windows.Forms.ToolStripMenuItem();
             this.ExitTab = new System.Windows.Forms.ToolStripMenuItem();
             this.AboutMain = new System.Windows.Forms.ToolStripMenuItem();
@@ -69,7 +69,7 @@
             this.YLabel = new System.Windows.Forms.Label();
             this.YTextBox16 = new System.Windows.Forms.TextBox();
             this.RButton3 = new System.Windows.Forms.Button();
-            this.menuStrip1.SuspendLayout();
+            this.MenuManual.SuspendLayout();
             this.SuspendLayout();
             // 
             // EButton
@@ -181,17 +181,17 @@
             this.ADDLabel.TabIndex = 10;
             this.ADDLabel.Text = "Address :";
             // 
-            // menuStrip1
+            // MenuManual
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.Linen;
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MenuManual.BackColor = System.Drawing.Color.Linen;
+            this.MenuManual.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.FileMain,
             this.AboutMain});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(628, 25);
-            this.menuStrip1.TabIndex = 11;
-            this.menuStrip1.Text = "menuStrip1";
+            this.MenuManual.Location = new System.Drawing.Point(0, 0);
+            this.MenuManual.Name = "MenuManual";
+            this.MenuManual.Size = new System.Drawing.Size(628, 25);
+            this.MenuManual.TabIndex = 11;
+            this.MenuManual.Text = "menuStrip1";
             // 
             // FileMain
             // 
@@ -526,15 +526,15 @@
             this.Controls.Add(this.SNTextBox4);
             this.Controls.Add(this.FNTextBox3);
             this.Controls.Add(this.EButton);
-            this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.MenuManual);
             this.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.MainMenuStrip = this.menuStrip1;
+            this.MainMenuStrip = this.MenuManual;
             this.MaximizeBox = false;
             this.Name = "ManualPass";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "THE CONTACT TRACING";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.MenuManual.ResumeLayout(false);
+            this.MenuManual.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -553,7 +553,7 @@
         private System.Windows.Forms.Label ALabel;
         private System.Windows.Forms.Label PNLabel;
         private System.Windows.Forms.Label ADDLabel;
-        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.MenuStrip MenuManual;
         private System.Windows.Forms.ToolStripMenuItem FileMain;
         private System.Windows.Forms.ToolStripMenuItem ExitTab;
         private System.Windows.Forms.ToolStripMenuItem AboutMain;
