@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ZXing;
 
 namespace MY_CONTACT_TRACING
 {
@@ -15,6 +16,16 @@ namespace MY_CONTACT_TRACING
         public SignUpPage()
         {
             InitializeComponent();
+        }
+
+        private void GQr_Click(object sender, EventArgs e)
+        {
+            string QRData = fnTB.Text + aTB.Text + sTB.Text + pnTB.Text + haTB.Text + bTB.Text + cTB.Text + vTB.Text + erTB.Text;
+            string QRFileName = QRFileNameTB.Text;
+
+            BarcodeWriter barcodeW = new BarcodeWriter();
+ 
+
         }
     }
 }

@@ -31,7 +31,7 @@
             this.PBoxImage = new System.Windows.Forms.PictureBox();
             this.fnTB = new System.Windows.Forms.TextBox();
             this.aTB = new System.Windows.Forms.TextBox();
-            this.gTB = new System.Windows.Forms.TextBox();
+            this.sTB = new System.Windows.Forms.TextBox();
             this.bTB = new System.Windows.Forms.TextBox();
             this.haTB = new System.Windows.Forms.TextBox();
             this.pnTB = new System.Windows.Forms.TextBox();
@@ -54,6 +54,8 @@
             this.ABOUTMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.COMPANYMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.EXITMenu = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
+            this.QRFileNameTB = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.PBoxImage)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -83,13 +85,13 @@
             this.aTB.Size = new System.Drawing.Size(109, 21);
             this.aTB.TabIndex = 2;
             // 
-            // gTB
+            // sTB
             // 
-            this.gTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gTB.Location = new System.Drawing.Point(140, 135);
-            this.gTB.Name = "gTB";
-            this.gTB.Size = new System.Drawing.Size(109, 21);
-            this.gTB.TabIndex = 3;
+            this.sTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sTB.Location = new System.Drawing.Point(140, 135);
+            this.sTB.Name = "sTB";
+            this.sTB.Size = new System.Drawing.Size(109, 21);
+            this.sTB.TabIndex = 3;
             // 
             // bTB
             // 
@@ -159,7 +161,7 @@
             // 
             this.QLabel.AutoSize = true;
             this.QLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QLabel.Location = new System.Drawing.Point(18, 282);
+            this.QLabel.Location = new System.Drawing.Point(18, 275);
             this.QLabel.Name = "QLabel";
             this.QLabel.Size = new System.Drawing.Size(172, 15);
             this.QLabel.TabIndex = 10;
@@ -178,12 +180,13 @@
             // GQr
             // 
             this.GQr.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GQr.Location = new System.Drawing.Point(385, 270);
+            this.GQr.Location = new System.Drawing.Point(384, 275);
             this.GQr.Name = "GQr";
             this.GQr.Size = new System.Drawing.Size(117, 40);
             this.GQr.TabIndex = 12;
             this.GQr.Text = "Generate QR";
             this.GQr.UseVisualStyleBackColor = true;
+            this.GQr.Click += new System.EventHandler(this.GQr_Click);
             // 
             // BRGYLabel
             // 
@@ -216,7 +219,7 @@
             // vTB
             // 
             this.vTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vTB.Location = new System.Drawing.Point(196, 279);
+            this.vTB.Location = new System.Drawing.Point(196, 272);
             this.vTB.Name = "vTB";
             this.vTB.Size = new System.Drawing.Size(100, 21);
             this.vTB.TabIndex = 16;
@@ -224,7 +227,7 @@
             // erTB
             // 
             this.erTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.erTB.Location = new System.Drawing.Point(196, 311);
+            this.erTB.Location = new System.Drawing.Point(196, 304);
             this.erTB.Name = "erTB";
             this.erTB.Size = new System.Drawing.Size(100, 21);
             this.erTB.TabIndex = 17;
@@ -233,7 +236,7 @@
             // 
             this.ERISKLabel.AutoSize = true;
             this.ERISKLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ERISKLabel.Location = new System.Drawing.Point(75, 314);
+            this.ERISKLabel.Location = new System.Drawing.Point(75, 307);
             this.ERISKLabel.Name = "ERISKLabel";
             this.ERISKLabel.Size = new System.Drawing.Size(115, 15);
             this.ERISKLabel.TabIndex = 18;
@@ -256,7 +259,7 @@
             this.ABOUTMenu});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(565, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(577, 24);
             this.menuStrip1.TabIndex = 20;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -288,11 +291,31 @@
             this.EXITMenu.Size = new System.Drawing.Size(152, 22);
             this.EXITMenu.Text = "Exit";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(325, 328);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(105, 15);
+            this.label1.TabIndex = 21;
+            this.label1.Text = "QR File Name :";
+            // 
+            // QRFileNameTB
+            // 
+            this.QRFileNameTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QRFileNameTB.Location = new System.Drawing.Point(436, 325);
+            this.QRFileNameTB.Name = "QRFileNameTB";
+            this.QRFileNameTB.Size = new System.Drawing.Size(115, 21);
+            this.QRFileNameTB.TabIndex = 22;
+            // 
             // SignUpPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(565, 352);
+            this.ClientSize = new System.Drawing.Size(577, 365);
+            this.Controls.Add(this.QRFileNameTB);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.QRCaption);
             this.Controls.Add(this.ERISKLabel);
             this.Controls.Add(this.erTB);
@@ -310,7 +333,7 @@
             this.Controls.Add(this.pnTB);
             this.Controls.Add(this.haTB);
             this.Controls.Add(this.bTB);
-            this.Controls.Add(this.gTB);
+            this.Controls.Add(this.sTB);
             this.Controls.Add(this.aTB);
             this.Controls.Add(this.fnTB);
             this.Controls.Add(this.PBoxImage);
@@ -332,7 +355,7 @@
         private System.Windows.Forms.PictureBox PBoxImage;
         private System.Windows.Forms.TextBox fnTB;
         private System.Windows.Forms.TextBox aTB;
-        private System.Windows.Forms.TextBox gTB;
+        private System.Windows.Forms.TextBox sTB;
         private System.Windows.Forms.TextBox bTB;
         private System.Windows.Forms.TextBox haTB;
         private System.Windows.Forms.TextBox pnTB;
@@ -355,5 +378,7 @@
         private System.Windows.Forms.ToolStripMenuItem EXITMenu;
         private System.Windows.Forms.ToolStripMenuItem ABOUTMenu;
         private System.Windows.Forms.ToolStripMenuItem COMPANYMenu;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox QRFileNameTB;
     }
 }
