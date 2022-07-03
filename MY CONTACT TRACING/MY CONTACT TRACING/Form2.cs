@@ -71,5 +71,16 @@ namespace MY_CONTACT_TRACING
         {
             
         }
+
+        private void MenuName_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Created by Kylene Shane M. Varona from BSCOE 1-5", "BASIC INFO");
+        }
+
+        private void MenuExit_Click(object sender, EventArgs e)
+        {
+            // Close the form.
+            this.Close();
+        }
     }
 }

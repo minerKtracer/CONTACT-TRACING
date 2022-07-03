@@ -19,8 +19,6 @@ namespace MY_CONTACT_TRACING
         {
             InitializeComponent();
         }
-        FilterInfoCollection filterInforCollection;
-        VideoCaptureDevice captureDevice;
 
         private void Homepage_Load(object sender, EventArgs e)
         {
@@ -39,8 +37,8 @@ namespace MY_CONTACT_TRACING
         private void BtnQRCode_Click(object sender, EventArgs e)
         {
             this.Hide();
-            QRcodepass Qp = new QRcodepass();
-            Qp.ShowDialog(); // Shows QRcodepass
+            QRHome QH = new QRHome();
+            QH.ShowDialog(); // Shows QRHome
 
             this.Show();
         }

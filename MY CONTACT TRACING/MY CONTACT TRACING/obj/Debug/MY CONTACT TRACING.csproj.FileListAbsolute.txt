@@ -17,3 +17,5 @@ C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT T
 C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\bin\Debug\zxing.presentation.xml
 C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\obj\Debug\MY CONTACT TRACING.exe
 C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\obj\Debug\MY CONTACT TRACING.pdb
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\obj\Debug\MY_CONTACT_TRACING.QRHome.resources
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\obj\Debug\MY_CONTACT_TRACING.SignUpPage.resources

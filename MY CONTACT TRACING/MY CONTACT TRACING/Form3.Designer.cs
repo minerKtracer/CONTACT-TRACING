@@ -40,7 +40,7 @@
             // BtnManual
             // 
             this.BtnManual.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnManual.Location = new System.Drawing.Point(108, 96);
+            this.BtnManual.Location = new System.Drawing.Point(108, 100);
             this.BtnManual.Name = "BtnManual";
             this.BtnManual.Size = new System.Drawing.Size(85, 35);
             this.BtnManual.TabIndex = 0;
@@ -51,7 +51,7 @@
             // BtnQRCode
             // 
             this.BtnQRCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnQRCode.Location = new System.Drawing.Point(108, 137);
+            this.BtnQRCode.Location = new System.Drawing.Point(108, 141);
             this.BtnQRCode.Name = "BtnQRCode";
             this.BtnQRCode.Size = new System.Drawing.Size(85, 35);
             this.BtnQRCode.TabIndex = 1;
@@ -65,7 +65,7 @@
             this.label1.BackColor = System.Drawing.Color.CornflowerBlue;
             this.label1.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Lavender;
-            this.label1.Location = new System.Drawing.Point(21, 64);
+            this.label1.Location = new System.Drawing.Point(21, 68);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(137, 19);
             this.label1.TabIndex = 2;
