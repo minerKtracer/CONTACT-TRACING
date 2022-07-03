@@ -191,7 +191,6 @@
             this.MenuManual.Name = "MenuManual";
             this.MenuManual.Size = new System.Drawing.Size(628, 25);
             this.MenuManual.TabIndex = 11;
-            this.MenuManual.Text = "menuStrip1";
             // 
             // FileMain
             // 

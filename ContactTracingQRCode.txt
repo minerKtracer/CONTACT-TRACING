@@ -1,0 +1,10 @@
+Information of the person :
+Full Name: Kylene Varona
+Age: 20
+Sex (F/M): F
+Phone Number: 09309046223
+Home Address: 19 V. Cruz St.
+Barangay: 424
+City: Manila
+Are you fully vacinated? : YES
+Exposure Risk? : None

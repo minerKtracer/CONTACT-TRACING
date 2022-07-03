@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.PBoxImage = new System.Windows.Forms.PictureBox();
-            this.fnTB = new System.Windows.Forms.TextBox();
-            this.aTB = new System.Windows.Forms.TextBox();
-            this.sTB = new System.Windows.Forms.TextBox();
-            this.bTB = new System.Windows.Forms.TextBox();
-            this.haTB = new System.Windows.Forms.TextBox();
-            this.pnTB = new System.Windows.Forms.TextBox();
+            this.fnTB1 = new System.Windows.Forms.TextBox();
+            this.aTB2 = new System.Windows.Forms.TextBox();
+            this.sTB3 = new System.Windows.Forms.TextBox();
+            this.bTB6 = new System.Windows.Forms.TextBox();
+            this.haTB5 = new System.Windows.Forms.TextBox();
+            this.pnTB4 = new System.Windows.Forms.TextBox();
             this.FLabel = new System.Windows.Forms.Label();
             this.AgeLabel = new System.Windows.Forms.Label();
             this.SexLabel = new System.Windows.Forms.Label();
@@ -44,9 +44,9 @@
             this.GQr = new System.Windows.Forms.Button();
             this.BRGYLabel = new System.Windows.Forms.Label();
             this.CityLabel = new System.Windows.Forms.Label();
-            this.cTB = new System.Windows.Forms.TextBox();
-            this.vTB = new System.Windows.Forms.TextBox();
-            this.erTB = new System.Windows.Forms.TextBox();
+            this.cTB7 = new System.Windows.Forms.TextBox();
+            this.vTB8 = new System.Windows.Forms.TextBox();
+            this.erTB9 = new System.Windows.Forms.TextBox();
             this.ERISKLabel = new System.Windows.Forms.Label();
             this.QRCaption = new System.Windows.Forms.Label();
             this.MenuSignUp = new System.Windows.Forms.MenuStrip();
@@ -69,53 +69,53 @@
             this.PBoxImage.TabIndex = 0;
             this.PBoxImage.TabStop = false;
             // 
-            // fnTB
+            // fnTB1
             // 
-            this.fnTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fnTB.Location = new System.Drawing.Point(140, 83);
-            this.fnTB.Name = "fnTB";
-            this.fnTB.Size = new System.Drawing.Size(180, 21);
-            this.fnTB.TabIndex = 1;
+            this.fnTB1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fnTB1.Location = new System.Drawing.Point(140, 83);
+            this.fnTB1.Name = "fnTB1";
+            this.fnTB1.Size = new System.Drawing.Size(180, 21);
+            this.fnTB1.TabIndex = 1;
             // 
-            // aTB
+            // aTB2
             // 
-            this.aTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.aTB.Location = new System.Drawing.Point(140, 108);
-            this.aTB.Name = "aTB";
-            this.aTB.Size = new System.Drawing.Size(109, 21);
-            this.aTB.TabIndex = 2;
+            this.aTB2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.aTB2.Location = new System.Drawing.Point(140, 108);
+            this.aTB2.Name = "aTB2";
+            this.aTB2.Size = new System.Drawing.Size(109, 21);
+            this.aTB2.TabIndex = 2;
             // 
-            // sTB
+            // sTB3
             // 
-            this.sTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sTB.Location = new System.Drawing.Point(140, 135);
-            this.sTB.Name = "sTB";
-            this.sTB.Size = new System.Drawing.Size(109, 21);
-            this.sTB.TabIndex = 3;
+            this.sTB3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sTB3.Location = new System.Drawing.Point(140, 135);
+            this.sTB3.Name = "sTB3";
+            this.sTB3.Size = new System.Drawing.Size(109, 21);
+            this.sTB3.TabIndex = 3;
             // 
-            // bTB
+            // bTB6
             // 
-            this.bTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bTB.Location = new System.Drawing.Point(140, 216);
-            this.bTB.Name = "bTB";
-            this.bTB.Size = new System.Drawing.Size(109, 21);
-            this.bTB.TabIndex = 3;
+            this.bTB6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bTB6.Location = new System.Drawing.Point(140, 216);
+            this.bTB6.Name = "bTB6";
+            this.bTB6.Size = new System.Drawing.Size(109, 21);
+            this.bTB6.TabIndex = 3;
             // 
-            // haTB
+            // haTB5
             // 
-            this.haTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.haTB.Location = new System.Drawing.Point(140, 189);
-            this.haTB.Name = "haTB";
-            this.haTB.Size = new System.Drawing.Size(180, 21);
-            this.haTB.TabIndex = 4;
+            this.haTB5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.haTB5.Location = new System.Drawing.Point(140, 189);
+            this.haTB5.Name = "haTB5";
+            this.haTB5.Size = new System.Drawing.Size(180, 21);
+            this.haTB5.TabIndex = 4;
             // 
-            // pnTB
+            // pnTB4
             // 
-            this.pnTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnTB.Location = new System.Drawing.Point(140, 162);
-            this.pnTB.Name = "pnTB";
-            this.pnTB.Size = new System.Drawing.Size(109, 21);
-            this.pnTB.TabIndex = 5;
+            this.pnTB4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnTB4.Location = new System.Drawing.Point(140, 162);
+            this.pnTB4.Name = "pnTB4";
+            this.pnTB4.Size = new System.Drawing.Size(109, 21);
+            this.pnTB4.TabIndex = 5;
             // 
             // FLabel
             // 
@@ -208,29 +208,29 @@
             this.CityLabel.TabIndex = 14;
             this.CityLabel.Text = "City :";
             // 
-            // cTB
+            // cTB7
             // 
-            this.cTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cTB.Location = new System.Drawing.Point(140, 243);
-            this.cTB.Name = "cTB";
-            this.cTB.Size = new System.Drawing.Size(109, 21);
-            this.cTB.TabIndex = 15;
+            this.cTB7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cTB7.Location = new System.Drawing.Point(140, 243);
+            this.cTB7.Name = "cTB7";
+            this.cTB7.Size = new System.Drawing.Size(109, 21);
+            this.cTB7.TabIndex = 15;
             // 
-            // vTB
+            // vTB8
             // 
-            this.vTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vTB.Location = new System.Drawing.Point(196, 272);
-            this.vTB.Name = "vTB";
-            this.vTB.Size = new System.Drawing.Size(100, 21);
-            this.vTB.TabIndex = 16;
+            this.vTB8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vTB8.Location = new System.Drawing.Point(196, 272);
+            this.vTB8.Name = "vTB8";
+            this.vTB8.Size = new System.Drawing.Size(100, 21);
+            this.vTB8.TabIndex = 16;
             // 
-            // erTB
+            // erTB9
             // 
-            this.erTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.erTB.Location = new System.Drawing.Point(196, 304);
-            this.erTB.Name = "erTB";
-            this.erTB.Size = new System.Drawing.Size(100, 21);
-            this.erTB.TabIndex = 17;
+            this.erTB9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.erTB9.Location = new System.Drawing.Point(196, 304);
+            this.erTB9.Name = "erTB9";
+            this.erTB9.Size = new System.Drawing.Size(100, 21);
+            this.erTB9.TabIndex = 17;
             // 
             // ERISKLabel
             // 
@@ -261,7 +261,6 @@
             this.MenuSignUp.Name = "MenuSignUp";
             this.MenuSignUp.Size = new System.Drawing.Size(577, 24);
             this.MenuSignUp.TabIndex = 20;
-            this.MenuSignUp.Text = "menuStrip1";
             // 
             // HELPMenu
             // 
@@ -320,9 +319,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.QRCaption);
             this.Controls.Add(this.ERISKLabel);
-            this.Controls.Add(this.erTB);
-            this.Controls.Add(this.vTB);
-            this.Controls.Add(this.cTB);
+            this.Controls.Add(this.erTB9);
+            this.Controls.Add(this.vTB8);
+            this.Controls.Add(this.cTB7);
             this.Controls.Add(this.CityLabel);
             this.Controls.Add(this.BRGYLabel);
             this.Controls.Add(this.GQr);
@@ -332,12 +331,12 @@
             this.Controls.Add(this.SexLabel);
             this.Controls.Add(this.AgeLabel);
             this.Controls.Add(this.FLabel);
-            this.Controls.Add(this.pnTB);
-            this.Controls.Add(this.haTB);
-            this.Controls.Add(this.bTB);
-            this.Controls.Add(this.sTB);
-            this.Controls.Add(this.aTB);
-            this.Controls.Add(this.fnTB);
+            this.Controls.Add(this.pnTB4);
+            this.Controls.Add(this.haTB5);
+            this.Controls.Add(this.bTB6);
+            this.Controls.Add(this.sTB3);
+            this.Controls.Add(this.aTB2);
+            this.Controls.Add(this.fnTB1);
             this.Controls.Add(this.PBoxImage);
             this.Controls.Add(this.MenuSignUp);
             this.MainMenuStrip = this.MenuSignUp;
@@ -356,12 +355,12 @@
         #endregion
 
         private System.Windows.Forms.PictureBox PBoxImage;
-        private System.Windows.Forms.TextBox fnTB;
-        private System.Windows.Forms.TextBox aTB;
-        private System.Windows.Forms.TextBox sTB;
-        private System.Windows.Forms.TextBox bTB;
-        private System.Windows.Forms.TextBox haTB;
-        private System.Windows.Forms.TextBox pnTB;
+        private System.Windows.Forms.TextBox fnTB1;
+        private System.Windows.Forms.TextBox aTB2;
+        private System.Windows.Forms.TextBox sTB3;
+        private System.Windows.Forms.TextBox bTB6;
+        private System.Windows.Forms.TextBox haTB5;
+        private System.Windows.Forms.TextBox pnTB4;
         private System.Windows.Forms.Label FLabel;
         private System.Windows.Forms.Label AgeLabel;
         private System.Windows.Forms.Label SexLabel;
@@ -371,9 +370,9 @@
         private System.Windows.Forms.Button GQr;
         private System.Windows.Forms.Label BRGYLabel;
         private System.Windows.Forms.Label CityLabel;
-        private System.Windows.Forms.TextBox cTB;
-        private System.Windows.Forms.TextBox vTB;
-        private System.Windows.Forms.TextBox erTB;
+        private System.Windows.Forms.TextBox cTB7;
+        private System.Windows.Forms.TextBox vTB8;
+        private System.Windows.Forms.TextBox erTB9;
         private System.Windows.Forms.Label ERISKLabel;
         private System.Windows.Forms.Label QRCaption;
         private System.Windows.Forms.MenuStrip MenuSignUp;

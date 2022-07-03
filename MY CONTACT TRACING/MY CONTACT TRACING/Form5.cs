@@ -20,7 +20,7 @@ namespace MY_CONTACT_TRACING
 
         private void GQr_Click(object sender, EventArgs e)
         {
-            string QRData = fnTB.Text + aTB.Text + sTB.Text + pnTB.Text + haTB.Text + bTB.Text + cTB.Text + vTB.Text + erTB.Text;
+            string QRData = fnTB1.Text + "\n" + aTB2.Text + "\n" + sTB3.Text + "\n" + pnTB4.Text + "\n" + haTB5.Text + "\n" + bTB6.Text + "\n" + cTB7.Text + "\n" + vTB8.Text + "\n" + erTB9.Text;
             string QRFileName = QRFileNameTB.Text;
 
             BarcodeWriter barcodeW = new BarcodeWriter();
