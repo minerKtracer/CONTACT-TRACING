@@ -44,7 +44,7 @@
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(429, 79);
+            this.btnStart.Location = new System.Drawing.Point(294, 96);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(75, 26);
             this.btnStart.TabIndex = 0;
@@ -63,10 +63,10 @@
             // 
             // TxtBShow
             // 
-            this.TxtBShow.Location = new System.Drawing.Point(429, 111);
+            this.TxtBShow.Location = new System.Drawing.Point(294, 128);
             this.TxtBShow.Multiline = true;
             this.TxtBShow.Name = "TxtBShow";
-            this.TxtBShow.Size = new System.Drawing.Size(251, 210);
+            this.TxtBShow.Size = new System.Drawing.Size(183, 83);
             this.TxtBShow.TabIndex = 2;
             // 
             // CBox
@@ -79,9 +79,9 @@
             // 
             // PBox
             // 
-            this.PBox.Location = new System.Drawing.Point(12, 79);
+            this.PBox.Location = new System.Drawing.Point(36, 85);
             this.PBox.Name = "PBox";
-            this.PBox.Size = new System.Drawing.Size(411, 262);
+            this.PBox.Size = new System.Drawing.Size(232, 193);
             this.PBox.TabIndex = 4;
             this.PBox.TabStop = false;
             // 
@@ -92,7 +92,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(692, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(507, 24);
             this.menuStrip1.TabIndex = 5;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -117,7 +117,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(692, 353);
+            this.ClientSize = new System.Drawing.Size(507, 290);
             this.Controls.Add(this.PBox);
             this.Controls.Add(this.CBox);
             this.Controls.Add(this.TxtBShow);

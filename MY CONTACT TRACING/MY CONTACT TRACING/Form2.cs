@@ -62,9 +62,14 @@ namespace MY_CONTACT_TRACING
                     Ftimer.Stop();
                     if (captureDevice.IsRunning)
                         captureDevice.Stop();
-
                 }
             }
+
+        }
+
+        private void btnRead_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
