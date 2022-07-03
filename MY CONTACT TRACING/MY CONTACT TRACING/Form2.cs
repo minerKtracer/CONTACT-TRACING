@@ -16,5 +16,10 @@ namespace MY_CONTACT_TRACING
         {
             InitializeComponent();
         }
+
+        private void QRcodepass_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
