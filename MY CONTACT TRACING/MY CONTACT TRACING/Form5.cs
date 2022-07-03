@@ -41,5 +41,23 @@ namespace MY_CONTACT_TRACING
         {
             MessageBox.Show("Created by Kylene Shane M. Varona from BSCOE 1-5", "BASIC INFO");
         }
+
+        private void RTbtn_Click(object sender, EventArgs e)
+        {
+            if (fnTB1.Text != string.Empty || aTB2.Text != string.Empty || sTB3.Text != string.Empty || pnTB4.Text != string.Empty || haTB5.Text != string.Empty || bTB6.Text != string.Empty || cTB7.Text != string.Empty || vTB8.Text != string.Empty || erTB9.Text != string.Empty)
+            {
+                fnTB1.Text = "";
+                aTB2.Text = "";
+                sTB3.Text = "";
+                pnTB4.Text = "";
+                haTB5.Text = "";
+                bTB6.Text = "";
+                cTB7.Text = "";
+                vTB8.Text = "";
+                erTB9.Text = "";
+
+                MessageBox.Show("Reset is Done.");
+            }
+        }
     }
 }

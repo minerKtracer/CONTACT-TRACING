@@ -58,6 +58,7 @@
             this.aTB2 = new System.Windows.Forms.TextBox();
             this.fnTB1 = new System.Windows.Forms.TextBox();
             this.btnSubmit = new System.Windows.Forms.Button();
+            this.RESETbtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.PBox)).BeginInit();
             this.MenuQRG.SuspendLayout();
             this.SuspendLayout();
@@ -118,13 +119,13 @@
             this.MenuHelp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MenuExit});
             this.MenuHelp.Name = "MenuHelp";
-            this.MenuHelp.Size = new System.Drawing.Size(44, 20);
+            this.MenuHelp.Size = new System.Drawing.Size(49, 21);
             this.MenuHelp.Text = "Help";
             // 
             // MenuExit
             // 
             this.MenuExit.Name = "MenuExit";
-            this.MenuExit.Size = new System.Drawing.Size(93, 22);
+            this.MenuExit.Size = new System.Drawing.Size(152, 22);
             this.MenuExit.Text = "Exit";
             this.MenuExit.Click += new System.EventHandler(this.MenuExit_Click);
             // 
@@ -139,7 +140,7 @@
             // MenuName
             // 
             this.MenuName.Name = "MenuName";
-            this.MenuName.Size = new System.Drawing.Size(173, 22);
+            this.MenuName.Size = new System.Drawing.Size(192, 22);
             this.MenuName.Text = "Program Town Inc.";
             this.MenuName.Click += new System.EventHandler(this.MenuName_Click);
             // 
@@ -152,7 +153,7 @@
             // 
             this.ERISKLabel.AutoSize = true;
             this.ERISKLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ERISKLabel.Location = new System.Drawing.Point(371, 316);
+            this.ERISKLabel.Location = new System.Drawing.Point(383, 316);
             this.ERISKLabel.Name = "ERISKLabel";
             this.ERISKLabel.Size = new System.Drawing.Size(115, 15);
             this.ERISKLabel.TabIndex = 36;
@@ -161,7 +162,7 @@
             // erTB9
             // 
             this.erTB9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.erTB9.Location = new System.Drawing.Point(492, 313);
+            this.erTB9.Location = new System.Drawing.Point(504, 313);
             this.erTB9.Name = "erTB9";
             this.erTB9.Size = new System.Drawing.Size(100, 21);
             this.erTB9.TabIndex = 35;
@@ -169,7 +170,7 @@
             // vTB8
             // 
             this.vTB8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vTB8.Location = new System.Drawing.Point(492, 281);
+            this.vTB8.Location = new System.Drawing.Point(504, 281);
             this.vTB8.Name = "vTB8";
             this.vTB8.Size = new System.Drawing.Size(100, 21);
             this.vTB8.TabIndex = 34;
@@ -177,7 +178,7 @@
             // cTB7
             // 
             this.cTB7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cTB7.Location = new System.Drawing.Point(436, 252);
+            this.cTB7.Location = new System.Drawing.Point(448, 252);
             this.cTB7.Name = "cTB7";
             this.cTB7.Size = new System.Drawing.Size(109, 21);
             this.cTB7.TabIndex = 33;
@@ -186,7 +187,7 @@
             // 
             this.CityLabel.AutoSize = true;
             this.CityLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CityLabel.Location = new System.Drawing.Point(393, 255);
+            this.CityLabel.Location = new System.Drawing.Point(405, 255);
             this.CityLabel.Name = "CityLabel";
             this.CityLabel.Size = new System.Drawing.Size(38, 15);
             this.CityLabel.TabIndex = 32;
@@ -196,7 +197,7 @@
             // 
             this.BRGYLabel.AutoSize = true;
             this.BRGYLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BRGYLabel.Location = new System.Drawing.Point(356, 228);
+            this.BRGYLabel.Location = new System.Drawing.Point(368, 228);
             this.BRGYLabel.Name = "BRGYLabel";
             this.BRGYLabel.Size = new System.Drawing.Size(75, 15);
             this.BRGYLabel.TabIndex = 31;
@@ -206,7 +207,7 @@
             // 
             this.HLabel.AutoSize = true;
             this.HLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HLabel.Location = new System.Drawing.Point(323, 201);
+            this.HLabel.Location = new System.Drawing.Point(335, 201);
             this.HLabel.Name = "HLabel";
             this.HLabel.Size = new System.Drawing.Size(108, 15);
             this.HLabel.TabIndex = 30;
@@ -216,7 +217,7 @@
             // 
             this.QLabel.AutoSize = true;
             this.QLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QLabel.Location = new System.Drawing.Point(314, 284);
+            this.QLabel.Location = new System.Drawing.Point(326, 284);
             this.QLabel.Name = "QLabel";
             this.QLabel.Size = new System.Drawing.Size(172, 15);
             this.QLabel.TabIndex = 29;
@@ -226,7 +227,7 @@
             // 
             this.PLabel.AutoSize = true;
             this.PLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PLabel.Location = new System.Drawing.Point(320, 174);
+            this.PLabel.Location = new System.Drawing.Point(332, 174);
             this.PLabel.Name = "PLabel";
             this.PLabel.Size = new System.Drawing.Size(111, 15);
             this.PLabel.TabIndex = 28;
@@ -236,7 +237,7 @@
             // 
             this.SexLabel.AutoSize = true;
             this.SexLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SexLabel.Location = new System.Drawing.Point(354, 147);
+            this.SexLabel.Location = new System.Drawing.Point(366, 147);
             this.SexLabel.Name = "SexLabel";
             this.SexLabel.Size = new System.Drawing.Size(77, 15);
             this.SexLabel.TabIndex = 27;
@@ -246,7 +247,7 @@
             // 
             this.AgeLabel.AutoSize = true;
             this.AgeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AgeLabel.Location = new System.Drawing.Point(392, 120);
+            this.AgeLabel.Location = new System.Drawing.Point(404, 120);
             this.AgeLabel.Name = "AgeLabel";
             this.AgeLabel.Size = new System.Drawing.Size(39, 15);
             this.AgeLabel.TabIndex = 26;
@@ -256,7 +257,7 @@
             // 
             this.FLabel.AutoSize = true;
             this.FLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FLabel.Location = new System.Drawing.Point(350, 95);
+            this.FLabel.Location = new System.Drawing.Point(362, 95);
             this.FLabel.Name = "FLabel";
             this.FLabel.Size = new System.Drawing.Size(81, 15);
             this.FLabel.TabIndex = 25;
@@ -265,7 +266,7 @@
             // pnTB4
             // 
             this.pnTB4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnTB4.Location = new System.Drawing.Point(436, 171);
+            this.pnTB4.Location = new System.Drawing.Point(448, 171);
             this.pnTB4.Name = "pnTB4";
             this.pnTB4.Size = new System.Drawing.Size(109, 21);
             this.pnTB4.TabIndex = 24;
@@ -273,7 +274,7 @@
             // haTB5
             // 
             this.haTB5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.haTB5.Location = new System.Drawing.Point(436, 198);
+            this.haTB5.Location = new System.Drawing.Point(448, 198);
             this.haTB5.Name = "haTB5";
             this.haTB5.Size = new System.Drawing.Size(180, 21);
             this.haTB5.TabIndex = 23;
@@ -281,7 +282,7 @@
             // bTB6
             // 
             this.bTB6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bTB6.Location = new System.Drawing.Point(436, 225);
+            this.bTB6.Location = new System.Drawing.Point(448, 225);
             this.bTB6.Name = "bTB6";
             this.bTB6.Size = new System.Drawing.Size(109, 21);
             this.bTB6.TabIndex = 22;
@@ -289,7 +290,7 @@
             // sTB3
             // 
             this.sTB3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sTB3.Location = new System.Drawing.Point(436, 144);
+            this.sTB3.Location = new System.Drawing.Point(448, 144);
             this.sTB3.Name = "sTB3";
             this.sTB3.Size = new System.Drawing.Size(109, 21);
             this.sTB3.TabIndex = 21;
@@ -297,7 +298,7 @@
             // aTB2
             // 
             this.aTB2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.aTB2.Location = new System.Drawing.Point(436, 117);
+            this.aTB2.Location = new System.Drawing.Point(448, 117);
             this.aTB2.Name = "aTB2";
             this.aTB2.Size = new System.Drawing.Size(109, 21);
             this.aTB2.TabIndex = 20;
@@ -305,7 +306,7 @@
             // fnTB1
             // 
             this.fnTB1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fnTB1.Location = new System.Drawing.Point(436, 92);
+            this.fnTB1.Location = new System.Drawing.Point(448, 92);
             this.fnTB1.Name = "fnTB1";
             this.fnTB1.Size = new System.Drawing.Size(180, 21);
             this.fnTB1.TabIndex = 19;
@@ -321,12 +322,24 @@
             this.btnSubmit.UseVisualStyleBackColor = true;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
+            // RESETbtn
+            // 
+            this.RESETbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RESETbtn.Location = new System.Drawing.Point(555, 47);
+            this.RESETbtn.Name = "RESETbtn";
+            this.RESETbtn.Size = new System.Drawing.Size(75, 29);
+            this.RESETbtn.TabIndex = 38;
+            this.RESETbtn.Text = "Reset";
+            this.RESETbtn.UseVisualStyleBackColor = true;
+            this.RESETbtn.Click += new System.EventHandler(this.RESETbtn_Click);
+            // 
             // QRcodepass
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AntiqueWhite;
             this.ClientSize = new System.Drawing.Size(660, 413);
+            this.Controls.Add(this.RESETbtn);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.ERISKLabel);
             this.Controls.Add(this.erTB9);
@@ -396,5 +409,6 @@
         private System.Windows.Forms.TextBox aTB2;
         private System.Windows.Forms.TextBox fnTB1;
         private System.Windows.Forms.Button btnSubmit;
+        private System.Windows.Forms.Button RESETbtn;
     }
 }

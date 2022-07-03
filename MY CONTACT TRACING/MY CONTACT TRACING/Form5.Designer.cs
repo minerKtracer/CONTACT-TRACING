@@ -56,6 +56,7 @@
             this.EXITMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.QRFileNameTB = new System.Windows.Forms.TextBox();
+            this.RTbtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.PBoxImage)).BeginInit();
             this.MenuSignUp.SuspendLayout();
             this.SuspendLayout();
@@ -247,7 +248,7 @@
             // 
             this.QRCaption.AutoSize = true;
             this.QRCaption.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QRCaption.Location = new System.Drawing.Point(192, 35);
+            this.QRCaption.Location = new System.Drawing.Point(206, 39);
             this.QRCaption.Name = "QRCaption";
             this.QRCaption.Size = new System.Drawing.Size(196, 24);
             this.QRCaption.TabIndex = 19;
@@ -270,7 +271,7 @@
             this.HELPMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.EXITMenu});
             this.HELPMenu.Name = "HELPMenu";
-            this.HELPMenu.Size = new System.Drawing.Size(44, 20);
+            this.HELPMenu.Size = new System.Drawing.Size(45, 20);
             this.HELPMenu.Text = "Help";
             // 
             // ABOUTMenu
@@ -278,13 +279,13 @@
             this.ABOUTMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.COMPANYMenu});
             this.ABOUTMenu.Name = "ABOUTMenu";
-            this.ABOUTMenu.Size = new System.Drawing.Size(52, 20);
+            this.ABOUTMenu.Size = new System.Drawing.Size(53, 20);
             this.ABOUTMenu.Text = "About";
             // 
             // COMPANYMenu
             // 
             this.COMPANYMenu.Name = "COMPANYMenu";
-            this.COMPANYMenu.Size = new System.Drawing.Size(173, 22);
+            this.COMPANYMenu.Size = new System.Drawing.Size(178, 22);
             this.COMPANYMenu.Text = "Program Town Inc.";
             this.COMPANYMenu.Click += new System.EventHandler(this.COMPANYMenu_Click);
             // 
@@ -313,12 +314,24 @@
             this.QRFileNameTB.Size = new System.Drawing.Size(115, 21);
             this.QRFileNameTB.TabIndex = 22;
             // 
+            // RTbtn
+            // 
+            this.RTbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RTbtn.Location = new System.Drawing.Point(140, 350);
+            this.RTbtn.Name = "RTbtn";
+            this.RTbtn.Size = new System.Drawing.Size(75, 24);
+            this.RTbtn.TabIndex = 39;
+            this.RTbtn.Text = "Reset";
+            this.RTbtn.UseVisualStyleBackColor = true;
+            this.RTbtn.Click += new System.EventHandler(this.RTbtn_Click);
+            // 
             // SignUpPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(577, 365);
+            this.ClientSize = new System.Drawing.Size(577, 386);
+            this.Controls.Add(this.RTbtn);
             this.Controls.Add(this.QRFileNameTB);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.QRCaption);
@@ -386,5 +399,6 @@
         private System.Windows.Forms.ToolStripMenuItem COMPANYMenu;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox QRFileNameTB;
+        private System.Windows.Forms.Button RTbtn;
     }
 }
