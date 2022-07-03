@@ -1,0 +1,19 @@
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\bin\Debug\MY CONTACT TRACING.exe.config
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\obj\Debug\MY CONTACT TRACING.csprojResolveAssemblyReference.cache
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\obj\Debug\MY_CONTACT_TRACING.ManualPass.resources
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\obj\Debug\MY_CONTACT_TRACING.QRcodepass.resources
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\obj\Debug\MY_CONTACT_TRACING.Homepage.resources
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\obj\Debug\MY_CONTACT_TRACING.Properties.Resources.resources
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\obj\Debug\MY CONTACT TRACING.csproj.GenerateResource.Cache
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\bin\Debug\MY CONTACT TRACING.exe
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\bin\Debug\MY CONTACT TRACING.pdb
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\bin\Debug\AForge.Video.dll
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\bin\Debug\zxing.dll
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\bin\Debug\zxing.presentation.dll
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\bin\Debug\AForge.Video.xml
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\bin\Debug\zxing.xml
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\bin\Debug\zxing.presentation.xml
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\obj\Debug\MY CONTACT TRACING.exe
+C:\Users\kylene shane varona\Desktop\MY ASSIGN 3\MY CONTACT TRACING\MY CONTACT TRACING\obj\Debug\MY CONTACT TRACING.pdb

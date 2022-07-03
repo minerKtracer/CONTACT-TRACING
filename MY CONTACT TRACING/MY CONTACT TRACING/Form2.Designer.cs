@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.btnStart = new System.Windows.Forms.Button();
             this.CLabel = new System.Windows.Forms.Label();
             this.TxtBShow = new System.Windows.Forms.TextBox();
@@ -36,6 +37,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Ftimer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.PBox)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -48,7 +50,7 @@
             this.btnStart.TabIndex = 0;
             this.btnStart.Text = "Start";
             this.btnStart.UseVisualStyleBackColor = true;
-            this.btnStart.Click += new System.EventHandler(this.button1_Click);
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // CLabel
             // 
@@ -106,6 +108,11 @@
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
             this.aboutToolStripMenuItem.Text = "About";
             // 
+            // Ftimer
+            // 
+            this.Ftimer.Interval = 1000;
+            this.Ftimer.Tick += new System.EventHandler(this.Ftimer_Tick);
+            // 
             // QRcodepass
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -121,6 +128,7 @@
             this.Name = "QRcodepass";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "QR Code";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.QRcodepass_FormClosing);
             this.Load += new System.EventHandler(this.QRcodepass_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PBox)).EndInit();
             this.menuStrip1.ResumeLayout(false);
@@ -140,5 +148,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.Timer Ftimer;
     }
 }

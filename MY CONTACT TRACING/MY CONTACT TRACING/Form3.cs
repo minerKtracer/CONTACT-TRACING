@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AForge.Video;
+using AForge.Video.DirectShow;
+
 
 namespace MY_CONTACT_TRACING
 {
@@ -16,6 +19,8 @@ namespace MY_CONTACT_TRACING
         {
             InitializeComponent();
         }
+        FilterInfoCollection filterInforCollection;
+        VideoCaptureDevice captureDevice;
 
         private void Homepage_Load(object sender, EventArgs e)
         {
